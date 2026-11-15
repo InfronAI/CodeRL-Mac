@@ -1,0 +1,16 @@
+{
+  "name": "offline-tiny",
+  "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim",
+  "model": "tiny",
+  "train_data": "data/fixtures/addition.jsonl",
+  "test_data": "data/fixtures/addition.jsonl",
+  "max_source": 192,
+  "max_target": 64,
+  "generation_batch": 5,
+  "train_samples": 5,
+  "sft_steps": 100,
+  "critic_steps": 20,
+  "repair_steps": 30,
+  "rl_steps": 10,
+  "temperature": 1.0
+}

@@ -1,0 +1,718 @@
+{
+  "run": "m1-codet5-small",
+  "status": "complete",
+  "model": "Salesforce/codet5-small",
+  "device": "mps",
+  "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction",
+  "stage_seconds": 917.8470347933471,
+  "stages_complete": 33,
+  "rollout_outcomes": {
+    "compile_error": 24,
+    "runtime_error": 1
+  },
+  "relative_return_distribution": {
+    "0.0": 19,
+    "0.4": 1,
+    "-0.4": 5
+  },
+  "cs_branches": {
+    "initial": 24,
+    "repair": 18
+  },
+  "nonzero_policy_steps": 4,
+  "policy_steps": 10,
+  "metrics": {
+    "absolute_beam": {
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "ce_only_beam": {
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "ce_synthetic_beam": {
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "coderl": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "failed": 2,
+        "compile_error": 28
+      },
+      "problems": 6,
+      "candidates": 30,
+      "by_difficulty": {
+        "competition": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "interview": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "introductory": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "coderl_beam": {
+      "outcomes": {
+        "compile_error": 29,
+        "runtime_error": 1
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "cs_refine": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "failed": 2,
+        "compile_error": 28
+      },
+      "problems": 6,
+      "candidates": 30,
+      "by_difficulty": {
+        "competition": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "interview": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "introductory": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "cs_repair1": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 27,
+        "failed": 2,
+        "runtime_error": 1
+      },
+      "problems": 6,
+      "candidates": 30,
+      "by_difficulty": {
+        "competition": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "interview": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "introductory": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "cs_repair2": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 29,
+        "failed": 1
+      },
+      "problems": 6,
+      "candidates": 30,
+      "by_difficulty": {
+        "competition": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "interview": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "introductory": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "cs_repair4": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 27,
+        "runtime_error": 3
+      },
+      "problems": 6,
+      "candidates": 30,
+      "by_difficulty": {
+        "competition": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "interview": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "introductory": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "distance_beam": {
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "mbpp_finetuned": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 15
+      },
+      "problems": 3,
+      "candidates": 15,
+      "by_difficulty": {
+        "unknown": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "mbpp_zero_coderl": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 15
+      },
+      "problems": 3,
+      "candidates": 15,
+      "by_difficulty": {
+        "unknown": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "mbpp_zero_sft": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 15
+      },
+      "problems": 3,
+      "candidates": 15,
+      "by_difficulty": {
+        "unknown": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 3,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "no_critic_beam": {
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "rl_only_beam": {
+      "outcomes": {
+        "compile_error": 29,
+        "runtime_error": 1
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "sft": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "by_difficulty": {
+        "competition": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "interview": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        },
+        "introductory": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 6,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    },
+    "sft_beam": {
+      "outcomes": {
+        "compile_error": 30
+      },
+      "problems": 6,
+      "candidates": 30,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 0.0
+      },
+      "decoding": "beam",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+    }
+  },
+  "generation_lengths": {
+    "sft": {
+      "candidates": 30,
+      "configured_max_target": 192,
+      "min": 100,
+      "max": 100,
+      "mean": 100.0,
+      "ended_with_eos": 30,
+      "hit_limit_without_eos": 0
+    },
+    "coderl": {
+      "candidates": 30,
+      "configured_max_target": 192,
+      "min": 81,
+      "max": 100,
+      "mean": 99.36666666666666,
+      "ended_with_eos": 30,
+      "hit_limit_without_eos": 0
+    }
+  },
+  "heldout_critic": {
+    "scope": "SFT-generated programs on the frozen test subset; diagnostic only, no model selection",
+    "examples": 30,
+    "accuracy": 1.0,
+    "confusion_true_rows_predicted_columns": [
+      [
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "class_order": [
+      "compile_error",
+      "runtime_error",
+      "failed",
+      "passed"
+    ]
+  }
+}

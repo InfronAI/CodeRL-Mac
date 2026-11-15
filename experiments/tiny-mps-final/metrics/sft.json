@@ -1,0 +1,52 @@
+{
+  "pass@1": {
+    "mean": 0.30000000000000004,
+    "ci95": [
+      0.2,
+      0.4
+    ],
+    "problems": 2,
+    "method": "percentile bootstrap over problems; small samples have low power"
+  },
+  "pass@5": {
+    "mean": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "problems": 2,
+    "method": "percentile bootstrap over problems; small samples have low power"
+  },
+  "outcomes": {
+    "compile_error": 7,
+    "passed": 3
+  },
+  "problems": 2,
+  "candidates": 10,
+  "by_difficulty": {
+    "fixture": {
+      "pass@1": 0.30000000000000004,
+      "pass@5": 1.0
+    }
+  },
+  "1@5": {
+    "mean": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "problems": 2,
+    "method": "percentile bootstrap over problems; small samples have low power"
+  },
+  "5@5": {
+    "mean": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "problems": 2,
+    "method": "percentile bootstrap over problems; small samples have low power"
+  },
+  "decoding": "nucleus",
+  "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+}

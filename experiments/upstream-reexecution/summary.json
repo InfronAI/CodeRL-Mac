@@ -1,0 +1,41 @@
+{
+  "scope": "Re-execution of saved Salesforce/CodeRL samples; not new model inference and not held-out accuracy",
+  "programs": 83,
+  "outcomes": {
+    "passed": 35,
+    "failed": 25,
+    "runtime_error": 21,
+    "compile_error": 2
+  },
+  "agreement": 0.9518072289156626,
+  "disagreements": [
+    {
+      "problem_id": "apps/train/2287",
+      "index": 2,
+      "upstream": "runtime_error",
+      "current": "compile_error",
+      "error": "SyntaxError: 'return' outside function (<candidate>, line 31)"
+    },
+    {
+      "problem_id": "apps/train/4184",
+      "index": 14,
+      "upstream": "compile_error",
+      "current": "runtime_error",
+      "error": "NameError: name 'x' is not defined"
+    },
+    {
+      "problem_id": "apps/train/4184",
+      "index": 15,
+      "upstream": "runtime_error",
+      "current": "failed",
+      "error": "WrongAnswer"
+    },
+    {
+      "problem_id": "apps/train/4184",
+      "index": 16,
+      "upstream": "runtime_error",
+      "current": "failed",
+      "error": "WrongAnswer"
+    }
+  ]
+}

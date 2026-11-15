@@ -1,0 +1,596 @@
+{
+  "identity": {
+    "config": {
+      "model": "Salesforce/codet5-small",
+      "revision": "b1ee9570c289f21b5922b9c768a1ce12957bf968",
+      "device": "auto",
+      "seed": 42,
+      "threads": 4,
+      "batch_size": 1,
+      "grad_accum": 1,
+      "lr": 2e-05,
+      "critic_lr": 2e-05,
+      "rl_lr": 2e-05,
+      "max_source": 600,
+      "max_target": 192,
+      "generation_batch": 5,
+      "samples": 5,
+      "train_samples": 5,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "msp_steps": 2,
+      "ntp_steps": 2,
+      "sft_steps": 40,
+      "critic_steps": 20,
+      "repair_steps": 20,
+      "rl_steps": 10,
+      "variants": [
+        "coderl",
+        "no_critic",
+        "absolute",
+        "distance",
+        "ce_only",
+        "ce_synthetic",
+        "rl_only"
+      ],
+      "cs_modes": [
+        "refine",
+        "repair1",
+        "repair2",
+        "repair4"
+      ],
+      "test_timeout": 2.0,
+      "program_timeout": 20.0,
+      "mbpp_steps": 20,
+      "mbpp_samples": 5,
+      "max_solutions": 2,
+      "name": "m1-codet5-small",
+      "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction",
+      "train_data": "data/benchmarks/apps_train.jsonl",
+      "test_data": "data/benchmarks/apps_test.jsonl",
+      "mbpp_data": "data/benchmarks/mbpp_subset.jsonl"
+    },
+    "source": "46216e712ced917946e34c75a0bd3072ba021e443ea2cba016fcc92c2c514ff3",
+    "data": {
+      "train_data": "8889058e1c0f58de3aa56a6d08e429a9d0c25235f26533c6aa089c6d556334c3",
+      "test_data": "c5071be424ab9668a59edeed0211caffe7f0f47a13c34ea73b9a24505350dc67",
+      "mbpp_data": "ce17ab35bd52c42b8cbf651cbf705c4c6e39e75f33b992e7f5d58d73b7c0311a"
+    }
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu": "Apple M1 Pro",
+    "memory_bytes": "17179869184",
+    "device": "mps",
+    "mps_available": true,
+    "cuda_available": false,
+    "versions": {
+      "torch": "2.9.1",
+      "transformers": "4.46.3",
+      "numpy": "2.4.6",
+      "tokenizers": "0.20.3",
+      "safetensors": "0.8.0"
+    },
+    "determinism": "Seeded PRNGs; MPS floating-point kernels may differ between runs/hardware."
+  },
+  "stages": {
+    "msp": {
+      "status": "complete",
+      "seconds": 4.05643004225567,
+      "artifacts": {
+        "checkpoints/msp/model.safetensors": "cebf72d0a03cac6494d8db21756323e3d419345098fde87d46c73279526d39d9",
+        "checkpoints/msp/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/msp/special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "checkpoints/msp/config.json": "ae3d303dc8619bba2624db71a2560e42d8029fea1ee7d18f7a40999588a47dac",
+        "checkpoints/msp/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/msp/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/msp/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/msp/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/msp.jsonl": "72b4dd7a62e0562069ec6b48ad6f277e741796382373db133510f730eb29b994"
+      },
+      "steps": 2,
+      "parameters": 60492288,
+      "last_loss": 4.508975028991699
+    },
+    "ntp": {
+      "status": "complete",
+      "seconds": 2.073261708021164,
+      "artifacts": {
+        "checkpoints/ntp/model.safetensors": "efb387bc5520015033a5ab2e0b3e705a5437ac621215329a4417983963dae3e9",
+        "checkpoints/ntp/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/ntp/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/ntp/config.json": "b4c4466288e3c6e4d4301fa611bc0960e47f8a1abe5dd08c291e7b337b6c05d0",
+        "checkpoints/ntp/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/ntp/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/ntp/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/ntp/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/ntp.jsonl": "0075404c462b5b526e4507fa64addddf5dfc88cce0ceb6a2acecaa82b2e215d0"
+      },
+      "steps": 2,
+      "parameters": 60492288,
+      "last_loss": 8.242019653320312
+    },
+    "sft": {
+      "status": "complete",
+      "seconds": 45.396659874822944,
+      "artifacts": {
+        "checkpoints/sft/model.safetensors": "46d63f73df6fdefea512a6f6d7cea6f1c21d98f33fda73a647e6b7f5869e3390",
+        "checkpoints/sft/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/sft/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/sft/config.json": "b21d70627e311f0a2af8c81187a4cea899f80d30cdb8f0d212d346681ebb3bef",
+        "checkpoints/sft/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/sft/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/sft/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/sft/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/sft.jsonl": "303adc30f55521b87a003f6716004368c7b68e4e4eb396dfdaf1741684f9071c"
+      },
+      "steps": 40,
+      "parameters": 60492288,
+      "last_loss": 3.4009101390838623
+    },
+    "rollouts": {
+      "status": "complete",
+      "seconds": 41.32030637515709,
+      "artifacts": {
+        "rollouts.jsonl": "dc8d768791b2c0d9acb9b9af8b8e2ac56a93bf2e1c01d69812dd9897bf17b8b4",
+        "baselines.jsonl": "2db5df9f1874681b39bb343522905bed7e037b72b03c4a963ed132a0e62c8b25",
+        "references.jsonl": "f22ab06366bb608c33a149247079200c1cd76b9baef632be3a8cd1b459120ad7"
+      },
+      "samples": 25,
+      "outcomes": {
+        "compile_error": 24,
+        "runtime_error": 1
+      },
+      "nonzero_advantages": 6,
+      "references_passed": 9
+    },
+    "critic4": {
+      "status": "complete",
+      "seconds": 22.29959562467411,
+      "artifacts": {
+        "training/critic4.jsonl": "b7e16e975d58f8b751e11905327fa43979f1835eec7c581552bee57b2463bf35",
+        "checkpoints/critic4/model.safetensors": "182bdd0f98a56a05d2cde5e58760d15112178b887f599a5f7d7c30e96e5e3c5a",
+        "checkpoints/critic4/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/critic4/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/critic4/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/critic4/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/critic4/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/critic4/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/critic4/critic.json": "cf43dc7dac5528199a77641fff9f2548b34b088650bb1f06dc2a65a60ad096bc",
+        "checkpoints/critic4/critic_head.safetensors": "fbd11ce124df6ce29e73a6762e702d0cd20e8dfcce25c77d3cc5616b2979c01b",
+        "checkpoints/critic4/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e"
+      },
+      "steps": 20,
+      "training_examples": 34,
+      "classes": 4
+    },
+    "critic2": {
+      "status": "complete",
+      "seconds": 17.08877058327198,
+      "artifacts": {
+        "training/critic2.jsonl": "836b8bdd0eb0253736460cc7a4c312ce9070e54e7fe0c11526a0689113c07ed8",
+        "checkpoints/critic2/model.safetensors": "3d46f6a6cd8e07efa3c499ffed1f2a14dd7bd28acba1b7260548f3355eb358a3",
+        "checkpoints/critic2/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/critic2/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/critic2/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/critic2/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/critic2/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/critic2/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/critic2/critic.json": "b1cd2ec809b9e82dc1cecad7ddbff7a2d4af7899d56c51df0c31664d7d7dec63",
+        "checkpoints/critic2/critic_head.safetensors": "592f85e54b51440e1d0457caffa14405b0a616b04b31f549abe4fdcea3947931",
+        "checkpoints/critic2/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e"
+      },
+      "steps": 20,
+      "training_examples": 34,
+      "classes": 2
+    },
+    "scores": {
+      "status": "complete",
+      "seconds": 1.305133208166808,
+      "artifacts": {
+        "critic_scores.jsonl": "44baff80f096af0e43a6aa0a9981e14b666e3c3fbdc521b0af65a565de90cab0"
+      },
+      "scored": 25,
+      "training_accuracy": 1.0
+    },
+    "repair": {
+      "status": "complete",
+      "seconds": 24.59205879177898,
+      "artifacts": {
+        "checkpoints/repair/model.safetensors": "ed012904c9ad7c3c0c382a8e4bf1edcd940d08a80bc44b5ce9b32cd60c6732e0",
+        "checkpoints/repair/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/repair/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/repair/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/repair/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/repair/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/repair/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/repair/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/repair.jsonl": "0896d3859336e8991ae6b20d3a69b9a07d601f196cfa7b9cc9176fef35d5d9c9"
+      },
+      "steps": 20,
+      "parameters": 60492288,
+      "last_loss": 3.0226986408233643
+    },
+    "eval_sft": {
+      "status": "complete",
+      "seconds": 23.207458375021815,
+      "artifacts": {
+        "evaluations/sft.jsonl": "f91a4005ccfccdd087126f0a463a41f6b403aaa2a06e20113855a014fd75617d",
+        "metrics/sft.json": "10f6b24ed432813ce9d0bdc5f9ecb81757be89c224cc2ceceb73b2143e3c4a32"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "beam_sft": {
+      "status": "complete",
+      "seconds": 27.99151516566053,
+      "artifacts": {
+        "evaluations/sft_beam.jsonl": "cb4695d2de3b980b0f3552758e554ffa27b02ceac5eb67085927edf8e6a21272",
+        "metrics/sft_beam.json": "34e2f1adb6f1aca0011f36266caada8cdc414721656c1601eb3b1b4ca99291b9"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "coderl": {
+      "status": "complete",
+      "seconds": 16.34377249982208,
+      "artifacts": {
+        "checkpoints/coderl/model.safetensors": "864b669111fc45c80f781fd47b99cf7625514735a18ca71a61f2e417c4058ec0",
+        "checkpoints/coderl/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/coderl/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/coderl/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/coderl/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/coderl/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/coderl/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/coderl/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/coderl.jsonl": "ba0e22463de91a2badddf6818ee10c41911ad8d910db031efb3f7473d2af521d"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 2.2488168478012085
+    },
+    "beam_coderl": {
+      "status": "complete",
+      "seconds": 25.493514583911747,
+      "artifacts": {
+        "evaluations/coderl_beam.jsonl": "33314f0f3afff1a01a17c644266eceebeaff422192fc9a8489de1ce7a7e408cb",
+        "metrics/coderl_beam.json": "83476c43cec0d15d7314b4da04c0ee83cde77870f6fb6706cacd12455bb3ffb6"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 29,
+        "runtime_error": 1
+      }
+    },
+    "no_critic": {
+      "status": "complete",
+      "seconds": 16.853078916668892,
+      "artifacts": {
+        "checkpoints/no_critic/model.safetensors": "67f9614d5f64d5431bee9076f1da1b4457b5f373cdc3da287d32da7855d40bc4",
+        "checkpoints/no_critic/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/no_critic/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/no_critic/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/no_critic/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/no_critic/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/no_critic/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/no_critic/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/no_critic.jsonl": "db744d414978d8519cc24a580911da77a7cdb3b4d208575f460ccf865645d3d7"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 2.188345432281494
+    },
+    "beam_no_critic": {
+      "status": "complete",
+      "seconds": 25.335664332844317,
+      "artifacts": {
+        "evaluations/no_critic_beam.jsonl": "ddc5dfef30c3a61afb7b253c97bceac748d49bbb3d91b9d85496f1750ea9e9cb",
+        "metrics/no_critic_beam.json": "34e2f1adb6f1aca0011f36266caada8cdc414721656c1601eb3b1b4ca99291b9"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "absolute": {
+      "status": "complete",
+      "seconds": 21.300266459118575,
+      "artifacts": {
+        "checkpoints/absolute/model.safetensors": "f40c6efdd920643edf57e180754573589105e24190a16f40647a490ecc64d58b",
+        "checkpoints/absolute/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/absolute/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/absolute/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/absolute/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/absolute/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/absolute/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/absolute/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/absolute.jsonl": "0a35dfd43ebe3907b2678514637e6e4e3039ee1abcd4b7a5a67ff237e9ebe334"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 0.6587791442871094
+    },
+    "beam_absolute": {
+      "status": "complete",
+      "seconds": 33.50626770919189,
+      "artifacts": {
+        "evaluations/absolute_beam.jsonl": "6e4b4d9c66ddd45a3b1f05ccadf6ac79126da544b971dd184543159480c2ba12",
+        "metrics/absolute_beam.json": "34e2f1adb6f1aca0011f36266caada8cdc414721656c1601eb3b1b4ca99291b9"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "distance": {
+      "status": "complete",
+      "seconds": 15.955303375143558,
+      "artifacts": {
+        "checkpoints/distance/model.safetensors": "1aea53c120cf6e546fc417b9137ae395d34706c5f210ad13894f1bccedfd7c9d",
+        "checkpoints/distance/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/distance/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/distance/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/distance/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/distance/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/distance/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/distance/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/distance.jsonl": "7b49465885bed03cae790b7371d99041fa37b2d563c43bb13249ec8a5f70f91a"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 2.605740964412689
+    },
+    "beam_distance": {
+      "status": "complete",
+      "seconds": 29.69942279206589,
+      "artifacts": {
+        "evaluations/distance_beam.jsonl": "f4533e05500c50f76289ad9593e10912c87179445235a93e8aedd6b019cd8fc6",
+        "metrics/distance_beam.json": "34e2f1adb6f1aca0011f36266caada8cdc414721656c1601eb3b1b4ca99291b9"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "ce_only": {
+      "status": "complete",
+      "seconds": 11.887006416916847,
+      "artifacts": {
+        "checkpoints/ce_only/model.safetensors": "318c0c4bb242ac27085e1085521e5ca8e0b0f76e7b76317cec223532e23a6693",
+        "checkpoints/ce_only/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/ce_only/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/ce_only/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/ce_only/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/ce_only/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/ce_only/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/ce_only/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/ce_only.jsonl": "189fb5c7985c4abd31bdb878a706b901ce064b077cf1273f11c5ec6d9aecf315"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 3.0481462478637695
+    },
+    "beam_ce_only": {
+      "status": "complete",
+      "seconds": 25.664978499989957,
+      "artifacts": {
+        "evaluations/ce_only_beam.jsonl": "efca52b7c3bb4d7b20ed2455040eef0884b04da4de976b5a978af4c7f74a3d4a",
+        "metrics/ce_only_beam.json": "34e2f1adb6f1aca0011f36266caada8cdc414721656c1601eb3b1b4ca99291b9"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "ce_synthetic": {
+      "status": "complete",
+      "seconds": 12.002441707998514,
+      "artifacts": {
+        "checkpoints/ce_synthetic/model.safetensors": "acdaaf842dd0b6a969917b8a6c823bd471c3e3e4274a7da798375db666536a12",
+        "checkpoints/ce_synthetic/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/ce_synthetic/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/ce_synthetic/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/ce_synthetic/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/ce_synthetic/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/ce_synthetic/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/ce_synthetic/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/ce_synthetic.jsonl": "67a213939c62742e17efd5a1c1270ea034b07c31f1058a23b62f82346dcb8d1c"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 3.386082172393799
+    },
+    "beam_ce_synthetic": {
+      "status": "complete",
+      "seconds": 27.172303708270192,
+      "artifacts": {
+        "evaluations/ce_synthetic_beam.jsonl": "8bf88691b81a41fb1f368eaadc80f7e3cd5375961736a56ce94b93f566abf20c",
+        "metrics/ce_synthetic_beam.json": "34e2f1adb6f1aca0011f36266caada8cdc414721656c1601eb3b1b4ca99291b9"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 30
+      }
+    },
+    "rl_only": {
+      "status": "complete",
+      "seconds": 4.4540873328223825,
+      "artifacts": {
+        "checkpoints/rl_only/model.safetensors": "bb5a256babe3cc4f086fbe77910e793770ed2ca790007efd6019464f6bd31fb5",
+        "checkpoints/rl_only/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/rl_only/special_tokens_map.json": "6e3201c0254a3ac870461bbacf1c9c7580a60842547b54f0f4adf2904a0a5973",
+        "checkpoints/rl_only/config.json": "98f4d5ea2b8a291f33bc4ce8df96161b9dbdf12e834b5b71159345f1691045ee",
+        "checkpoints/rl_only/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/rl_only/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/rl_only/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/rl_only/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/rl_only.jsonl": "98d22d3a7aa3eadfc3928e9105c930606e9f810ac4aefdd3ca2127304780034b"
+      },
+      "steps": 10,
+      "parameters": 60492288,
+      "last_loss": 0.0
+    },
+    "beam_rl_only": {
+      "status": "complete",
+      "seconds": 29.54056500038132,
+      "artifacts": {
+        "evaluations/rl_only_beam.jsonl": "d42f00a8a67ceb8ed2c6d777df882b62371f9b75192ec7dd0c78ab000b22f2ef",
+        "metrics/rl_only_beam.json": "83476c43cec0d15d7314b4da04c0ee83cde77870f6fb6706cacd12455bb3ffb6"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 29,
+        "runtime_error": 1
+      }
+    },
+    "eval_coderl": {
+      "status": "complete",
+      "seconds": 22.752160917036235,
+      "artifacts": {
+        "evaluations/coderl.jsonl": "a7c7a11da0a84b4c0d9a0534b68994891cb446b1a48bbd0304f98b7a82115c7c",
+        "metrics/coderl.json": "768eb99fecfa5af99bc66d2e1806f0f7a16a699d1cfd956858803dbb3b9ec022"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "failed": 2,
+        "compile_error": 28
+      }
+    },
+    "cs_refine": {
+      "status": "complete",
+      "seconds": 24.711364708375186,
+      "artifacts": {
+        "evaluations/cs_refine.jsonl": "490c7b7a8fb69877141c1b1b623bc492b60491637bc9c6d54d7b557be9730a59",
+        "metrics/cs_refine.json": "737178c2a94a48b29800b09b8243e3c5a5b888eb0b9c7a9affb720e1ca984f9b",
+        "traces/cs_refine.json": "4c071b301bb81e1b0f9db8ebe8662ac382510351c6677bc22b2fb744069f016d"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "failed": 2,
+        "compile_error": 28
+      }
+    },
+    "cs_repair1": {
+      "status": "complete",
+      "seconds": 70.61422350024804,
+      "artifacts": {
+        "evaluations/cs_repair1.jsonl": "379140d46663bef0b727ac09039b447000249c7612ef98a2327f78d88eed275a",
+        "metrics/cs_repair1.json": "2e5989fecda6efa7aff704e6ea24db761a61a65f2b5f5befd10f3609ed71bfb2",
+        "traces/cs_repair1.json": "124047b944a9b902f82383833d3a8a8727b7670fcaccb2448c50c8fd8b666c4c"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 27,
+        "failed": 2,
+        "runtime_error": 1
+      }
+    },
+    "cs_repair2": {
+      "status": "complete",
+      "seconds": 105.01964470883831,
+      "artifacts": {
+        "evaluations/cs_repair2.jsonl": "2b9fc154fe840b193bd72b8600ff372bb19b6c33810994459035964605e69539",
+        "metrics/cs_repair2.json": "500b5686a6568e75b110d3208d356baab079501fd432e667ff480a0925385659",
+        "traces/cs_repair2.json": "7978d431666b045afb3437ae2e1438730e0f7fb3651c60d61b21de6a627d3629"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 29,
+        "failed": 1
+      }
+    },
+    "cs_repair4": {
+      "status": "complete",
+      "seconds": 139.86896204110235,
+      "artifacts": {
+        "evaluations/cs_repair4.jsonl": "14f5aa2222f47b6fd730410b24c6e65b12a64e5282caae8fbe9a692d38e313dc",
+        "metrics/cs_repair4.json": "0a11268b527d6fab6a0862fb746d9e7f0dfe206a127be4163a019c1b9abbff1a",
+        "traces/cs_repair4.json": "00cabb976e4fa8f3c9401d61ffeeef8a0ca4a1206c979e037007b0c3c8278339"
+      },
+      "problems": 6,
+      "candidates": 30,
+      "outcomes": {
+        "compile_error": 27,
+        "runtime_error": 3
+      }
+    },
+    "mbpp_zero_sft": {
+      "status": "complete",
+      "seconds": 13.18885708367452,
+      "artifacts": {
+        "evaluations/mbpp_zero_sft.jsonl": "b2d59a4500ee971d22189233a3e88ad7c5d4fc67a11298d8cb84f3ed4d9dd1b2",
+        "metrics/mbpp_zero_sft.json": "ceeebfcc50806103327957b60aecfe7005d1e7a0fe9afa9c79645c06423efc4d"
+      },
+      "problems": 3,
+      "candidates": 15,
+      "outcomes": {
+        "compile_error": 15
+      }
+    },
+    "mbpp_zero_coderl": {
+      "status": "complete",
+      "seconds": 13.246652333065867,
+      "artifacts": {
+        "evaluations/mbpp_zero_coderl.jsonl": "607a7e652c174b389b065e853a2922449dcf5a3664322f60ca10c21a4c8fd84c",
+        "metrics/mbpp_zero_coderl.json": "ceeebfcc50806103327957b60aecfe7005d1e7a0fe9afa9c79645c06423efc4d"
+      },
+      "problems": 3,
+      "candidates": 15,
+      "outcomes": {
+        "compile_error": 15
+      }
+    },
+    "mbpp_finetune": {
+      "status": "complete",
+      "seconds": 7.367744083050638,
+      "artifacts": {
+        "checkpoints/mbpp_finetuned/model.safetensors": "a11ee84f6355c07ee1c8306a237ff7502734dd39cdff81964157cfbe2edbc78d",
+        "checkpoints/mbpp_finetuned/tokenizer_config.json": "7893552865728dd801c8fd012a5f1e72bb1cfd03307b7d2eb522a8c51121d308",
+        "checkpoints/mbpp_finetuned/special_tokens_map.json": "d756de5800e2f3b2643436ed5a8cdc2bc7b7a8598986bd372fd9c374e6303e03",
+        "checkpoints/mbpp_finetuned/config.json": "ae3d303dc8619bba2624db71a2560e42d8029fea1ee7d18f7a40999588a47dac",
+        "checkpoints/mbpp_finetuned/tokenizer.json": "d5e8316ab01a7eba95a445df95c58cd34b493bee83b9f213accc9e03a8f573c2",
+        "checkpoints/mbpp_finetuned/generation_config.json": "3e1e7edb3b4ba4eace1cc1c4a5a58a66bad78286b8610fea9b12c280852e9ebc",
+        "checkpoints/mbpp_finetuned/merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+        "checkpoints/mbpp_finetuned/vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e",
+        "training/mbpp_finetuned.jsonl": "97aae4c95f7c5f8de02edd918ecda1588a74cbbc11869628e3cb46221a8ca8ed"
+      },
+      "steps": 20,
+      "parameters": 60492288,
+      "last_loss": 4.405213356018066
+    },
+    "mbpp_eval_finetuned": {
+      "status": "complete",
+      "seconds": 16.537562333978713,
+      "artifacts": {
+        "evaluations/mbpp_finetuned.jsonl": "68f4b8cd53e6a3165c75bc146e436544a82db71ddd3ee8af723af21ad6802271",
+        "metrics/mbpp_finetuned.json": "ceeebfcc50806103327957b60aecfe7005d1e7a0fe9afa9c79645c06423efc4d"
+      },
+      "problems": 3,
+      "candidates": 15,
+      "outcomes": {
+        "compile_error": 15
+      }
+    }
+  },
+  "started_at": "2026-11-14T09:29:50.968745+00:00",
+  "status": "complete"
+}

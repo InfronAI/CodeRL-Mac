@@ -1,0 +1,22 @@
+{
+  "paper": {
+    "url": "https://arxiv.org/html/2207.01780v3",
+    "version": "v3",
+    "reviewed_sections": [
+      "3.2",
+      "3.3",
+      "3.4",
+      "4.1–4.6",
+      "Appendix A",
+      "Appendix B"
+    ],
+    "accessed": "2026-11-14"
+  },
+  "upstream": {
+    "url": "https://github.com/salesforce/CodeRL",
+    "commit": "ec3c526"
+  },
+  "pytorch_mps": "https://docs.pytorch.org/docs/2.9/notes/mps.html",
+  "model": "https://huggingface.co/Salesforce/codet5-small/tree/b1ee9570c289f21b5922b9c768a1ce12957bf968",
+  "datasets": "../../data/benchmarks/provenance.json"
+}

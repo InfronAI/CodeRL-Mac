@@ -1,0 +1,5853 @@
+{
+  "source_programs": 101,
+  "target_programs": 974,
+  "rows": [
+    {
+      "target_index": 0,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 1,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 2,
+      "eligible_lines": 5,
+      "overlap_lines": 1,
+      "fraction": 0.2
+    },
+    {
+      "target_index": 3,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 4,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 5,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 6,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 7,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 8,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 9,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 10,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 11,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 12,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 13,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 14,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 15,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 16,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 17,
+      "eligible_lines": 22,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 18,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 19,
+      "eligible_lines": 9,
+      "overlap_lines": 1,
+      "fraction": 0.1111111111111111
+    },
+    {
+      "target_index": 20,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 21,
+      "eligible_lines": 8,
+      "overlap_lines": 2,
+      "fraction": 0.25
+    },
+    {
+      "target_index": 22,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 23,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 24,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 25,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 26,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 27,
+      "eligible_lines": 4,
+      "overlap_lines": 1,
+      "fraction": 0.25
+    },
+    {
+      "target_index": 28,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 29,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 30,
+      "eligible_lines": 17,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 31,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 32,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 33,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 34,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 35,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 36,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 37,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 38,
+      "eligible_lines": 14,
+      "overlap_lines": 1,
+      "fraction": 0.07142857142857142
+    },
+    {
+      "target_index": 39,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 40,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 41,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 42,
+      "eligible_lines": 1,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 43,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 44,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 45,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 46,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 47,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 48,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 49,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 50,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 51,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 52,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 53,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 54,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 55,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 56,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 57,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 58,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 59,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 60,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 61,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 62,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 63,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 64,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 65,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 66,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 67,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 68,
+      "eligible_lines": 13,
+      "overlap_lines": 1,
+      "fraction": 0.07692307692307693
+    },
+    {
+      "target_index": 69,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 70,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 71,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 72,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 73,
+      "eligible_lines": 17,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 74,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 75,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 76,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 77,
+      "eligible_lines": 5,
+      "overlap_lines": 1,
+      "fraction": 0.2
+    },
+    {
+      "target_index": 78,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 79,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 80,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 81,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 82,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 83,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 84,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 85,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 86,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 87,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 88,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 89,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 90,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 91,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 92,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 93,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 94,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 95,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 96,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 97,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 98,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 99,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 100,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 101,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 102,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 103,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 104,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 105,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 106,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 107,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 108,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 109,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 110,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 111,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 112,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 113,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 114,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 115,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 116,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 117,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 118,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 119,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 120,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 121,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 122,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 123,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 124,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 125,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 126,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 127,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 128,
+      "eligible_lines": 15,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 129,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 130,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 131,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 132,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 133,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 134,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 135,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 136,
+      "eligible_lines": 2,
+      "overlap_lines": 1,
+      "fraction": 0.5
+    },
+    {
+      "target_index": 137,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 138,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 139,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 140,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 141,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 142,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 143,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 144,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 145,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 146,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 147,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 148,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 149,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 150,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 151,
+      "eligible_lines": 17,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 152,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 153,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 154,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 155,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 156,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 157,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 158,
+      "eligible_lines": 17,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 159,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 160,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 161,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 162,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 163,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 164,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 165,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 166,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 167,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 168,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 169,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 170,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 171,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 172,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 173,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 174,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 175,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 176,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 177,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 178,
+      "eligible_lines": 15,
+      "overlap_lines": 2,
+      "fraction": 0.13333333333333333
+    },
+    {
+      "target_index": 179,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 180,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 181,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 182,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 183,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 184,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 185,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 186,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 187,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 188,
+      "eligible_lines": 12,
+      "overlap_lines": 1,
+      "fraction": 0.08333333333333333
+    },
+    {
+      "target_index": 189,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 190,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 191,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 192,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 193,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 194,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 195,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 196,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 197,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 198,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 199,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 200,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 201,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 202,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 203,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 204,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 205,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 206,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 207,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 208,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 209,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 210,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 211,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 212,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 213,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 214,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 215,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 216,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 217,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 218,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 219,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 220,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 221,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 222,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 223,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 224,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 225,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 226,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 227,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 228,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 229,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 230,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 231,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 232,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 233,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 234,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 235,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 236,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 237,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 238,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 239,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 240,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 241,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 242,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 243,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 244,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 245,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 246,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 247,
+      "eligible_lines": 3,
+      "overlap_lines": 1,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "target_index": 248,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 249,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 250,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 251,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 252,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 253,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 254,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 255,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 256,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 257,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 258,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 259,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 260,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 261,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 262,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 263,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 264,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 265,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 266,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 267,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 268,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 269,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 270,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 271,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 272,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 273,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 274,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 275,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 276,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 277,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 278,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 279,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 280,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 281,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 282,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 283,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 284,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 285,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 286,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 287,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 288,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 289,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 290,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 291,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 292,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 293,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 294,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 295,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 296,
+      "eligible_lines": 13,
+      "overlap_lines": 1,
+      "fraction": 0.07692307692307693
+    },
+    {
+      "target_index": 297,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 298,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 299,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 300,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 301,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 302,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 303,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 304,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 305,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 306,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 307,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 308,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 309,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 310,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 311,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 312,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 313,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 314,
+      "eligible_lines": 19,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 315,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 316,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 317,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 318,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 319,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 320,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 321,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 322,
+      "eligible_lines": 19,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 323,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 324,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 325,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 326,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 327,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 328,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 329,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 330,
+      "eligible_lines": 5,
+      "overlap_lines": 1,
+      "fraction": 0.2
+    },
+    {
+      "target_index": 331,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 332,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 333,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 334,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 335,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 336,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 337,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 338,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 339,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 340,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 341,
+      "eligible_lines": 24,
+      "overlap_lines": 1,
+      "fraction": 0.041666666666666664
+    },
+    {
+      "target_index": 342,
+      "eligible_lines": 9,
+      "overlap_lines": 1,
+      "fraction": 0.1111111111111111
+    },
+    {
+      "target_index": 343,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 344,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 345,
+      "eligible_lines": 4,
+      "overlap_lines": 1,
+      "fraction": 0.25
+    },
+    {
+      "target_index": 346,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 347,
+      "eligible_lines": 13,
+      "overlap_lines": 1,
+      "fraction": 0.07692307692307693
+    },
+    {
+      "target_index": 348,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 349,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 350,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 351,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 352,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 353,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 354,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 355,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 356,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 357,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 358,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 359,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 360,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 361,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 362,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 363,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 364,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 365,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 366,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 367,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 368,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 369,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 370,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 371,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 372,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 373,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 374,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 375,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 376,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 377,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 378,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 379,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 380,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 381,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 382,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 383,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 384,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 385,
+      "eligible_lines": 16,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 386,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 387,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 388,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 389,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 390,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 391,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 392,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 393,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 394,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 395,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 396,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 397,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 398,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 399,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 400,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 401,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 402,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 403,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 404,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 405,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 406,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 407,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 408,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 409,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 410,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 411,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 412,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 413,
+      "eligible_lines": 8,
+      "overlap_lines": 1,
+      "fraction": 0.125
+    },
+    {
+      "target_index": 414,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 415,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 416,
+      "eligible_lines": 8,
+      "overlap_lines": 1,
+      "fraction": 0.125
+    },
+    {
+      "target_index": 417,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 418,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 419,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 420,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 421,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 422,
+      "eligible_lines": 18,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 423,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 424,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 425,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 426,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 427,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 428,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 429,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 430,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 431,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 432,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 433,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 434,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 435,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 436,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 437,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 438,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 439,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 440,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 441,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 442,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 443,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 444,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 445,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 446,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 447,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 448,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 449,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 450,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 451,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 452,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 453,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 454,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 455,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 456,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 457,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 458,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 459,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 460,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 461,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 462,
+      "eligible_lines": 16,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 463,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 464,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 465,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 466,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 467,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 468,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 469,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 470,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 471,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 472,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 473,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 474,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 475,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 476,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 477,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 478,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 479,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 480,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 481,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 482,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 483,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 484,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 485,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 486,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 487,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 488,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 489,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 490,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 491,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 492,
+      "eligible_lines": 48,
+      "overlap_lines": 2,
+      "fraction": 0.041666666666666664
+    },
+    {
+      "target_index": 493,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 494,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 495,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 496,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 497,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 498,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 499,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 500,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 501,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 502,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 503,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 504,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 505,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 506,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 507,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 508,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 509,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 510,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 511,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 512,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 513,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 514,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 515,
+      "eligible_lines": 15,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 516,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 517,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 518,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 519,
+      "eligible_lines": 19,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 520,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 521,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 522,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 523,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 524,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 525,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 526,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 527,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 528,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 529,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 530,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 531,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 532,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 533,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 534,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 535,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 536,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 537,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 538,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 539,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 540,
+      "eligible_lines": 8,
+      "overlap_lines": 1,
+      "fraction": 0.125
+    },
+    {
+      "target_index": 541,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 542,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 543,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 544,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 545,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 546,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 547,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 548,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 549,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 550,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 551,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 552,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 553,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 554,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 555,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 556,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 557,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 558,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 559,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 560,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 561,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 562,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 563,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 564,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 565,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 566,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 567,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 568,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 569,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 570,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 571,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 572,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 573,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 574,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 575,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 576,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 577,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 578,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 579,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 580,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 581,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 582,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 583,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 584,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 585,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 586,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 587,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 588,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 589,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 590,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 591,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 592,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 593,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 594,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 595,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 596,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 597,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 598,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 599,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 600,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 601,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 602,
+      "eligible_lines": 12,
+      "overlap_lines": 1,
+      "fraction": 0.08333333333333333
+    },
+    {
+      "target_index": 603,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 604,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 605,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 606,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 607,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 608,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 609,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 610,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 611,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 612,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 613,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 614,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 615,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 616,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 617,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 618,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 619,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 620,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 621,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 622,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 623,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 624,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 625,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 626,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 627,
+      "eligible_lines": 20,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 628,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 629,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 630,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 631,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 632,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 633,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 634,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 635,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 636,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 637,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 638,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 639,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 640,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 641,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 642,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 643,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 644,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 645,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 646,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 647,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 648,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 649,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 650,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 651,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 652,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 653,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 654,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 655,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 656,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 657,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 658,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 659,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 660,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 661,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 662,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 663,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 664,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 665,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 666,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 667,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 668,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 669,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 670,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 671,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 672,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 673,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 674,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 675,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 676,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 677,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 678,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 679,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 680,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 681,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 682,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 683,
+      "eligible_lines": 8,
+      "overlap_lines": 1,
+      "fraction": 0.125
+    },
+    {
+      "target_index": 684,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 685,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 686,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 687,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 688,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 689,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 690,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 691,
+      "eligible_lines": 6,
+      "overlap_lines": 1,
+      "fraction": 0.16666666666666666
+    },
+    {
+      "target_index": 692,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 693,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 694,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 695,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 696,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 697,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 698,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 699,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 700,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 701,
+      "eligible_lines": 20,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 702,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 703,
+      "eligible_lines": 3,
+      "overlap_lines": 1,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "target_index": 704,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 705,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 706,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 707,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 708,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 709,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 710,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 711,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 712,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 713,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 714,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 715,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 716,
+      "eligible_lines": 17,
+      "overlap_lines": 2,
+      "fraction": 0.11764705882352941
+    },
+    {
+      "target_index": 717,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 718,
+      "eligible_lines": 1,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 719,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 720,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 721,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 722,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 723,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 724,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 725,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 726,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 727,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 728,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 729,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 730,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 731,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 732,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 733,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 734,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 735,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 736,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 737,
+      "eligible_lines": 3,
+      "overlap_lines": 1,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "target_index": 738,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 739,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 740,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 741,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 742,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 743,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 744,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 745,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 746,
+      "eligible_lines": 15,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 747,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 748,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 749,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 750,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 751,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 752,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 753,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 754,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 755,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 756,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 757,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 758,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 759,
+      "eligible_lines": 5,
+      "overlap_lines": 1,
+      "fraction": 0.2
+    },
+    {
+      "target_index": 760,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 761,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 762,
+      "eligible_lines": 7,
+      "overlap_lines": 1,
+      "fraction": 0.14285714285714285
+    },
+    {
+      "target_index": 763,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 764,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 765,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 766,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 767,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 768,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 769,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 770,
+      "eligible_lines": 12,
+      "overlap_lines": 1,
+      "fraction": 0.08333333333333333
+    },
+    {
+      "target_index": 771,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 772,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 773,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 774,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 775,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 776,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 777,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 778,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 779,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 780,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 781,
+      "eligible_lines": 6,
+      "overlap_lines": 2,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "target_index": 782,
+      "eligible_lines": 18,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 783,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 784,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 785,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 786,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 787,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 788,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 789,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 790,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 791,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 792,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 793,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 794,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 795,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 796,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 797,
+      "eligible_lines": 3,
+      "overlap_lines": 1,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "target_index": 798,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 799,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 800,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 801,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 802,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 803,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 804,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 805,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 806,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 807,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 808,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 809,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 810,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 811,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 812,
+      "eligible_lines": 1,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 813,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 814,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 815,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 816,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 817,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 818,
+      "eligible_lines": 15,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 819,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 820,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 821,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 822,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 823,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 824,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 825,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 826,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 827,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 828,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 829,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 830,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 831,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 832,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 833,
+      "eligible_lines": 24,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 834,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 835,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 836,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 837,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 838,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 839,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 840,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 841,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 842,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 843,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 844,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 845,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 846,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 847,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 848,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 849,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 850,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 851,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 852,
+      "eligible_lines": 13,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 853,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 854,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 855,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 856,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 857,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 858,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 859,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 860,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 861,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 862,
+      "eligible_lines": 9,
+      "overlap_lines": 1,
+      "fraction": 0.1111111111111111
+    },
+    {
+      "target_index": 863,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 864,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 865,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 866,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 867,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 868,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 869,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 870,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 871,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 872,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 873,
+      "eligible_lines": 6,
+      "overlap_lines": 1,
+      "fraction": 0.16666666666666666
+    },
+    {
+      "target_index": 874,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 875,
+      "eligible_lines": 8,
+      "overlap_lines": 1,
+      "fraction": 0.125
+    },
+    {
+      "target_index": 876,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 877,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 878,
+      "eligible_lines": 1,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 879,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 880,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 881,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 882,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 883,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 884,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 885,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 886,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 887,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 888,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 889,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 890,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 891,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 892,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 893,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 894,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 895,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 896,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 897,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 898,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 899,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 900,
+      "eligible_lines": 9,
+      "overlap_lines": 1,
+      "fraction": 0.1111111111111111
+    },
+    {
+      "target_index": 901,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 902,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 903,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 904,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 905,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 906,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 907,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 908,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 909,
+      "eligible_lines": 6,
+      "overlap_lines": 1,
+      "fraction": 0.16666666666666666
+    },
+    {
+      "target_index": 910,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 911,
+      "eligible_lines": 14,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 912,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 913,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 914,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 915,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 916,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 917,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 918,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 919,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 920,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 921,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 922,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 923,
+      "eligible_lines": 2,
+      "overlap_lines": 1,
+      "fraction": 0.5
+    },
+    {
+      "target_index": 924,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 925,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 926,
+      "eligible_lines": 11,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 927,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 928,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 929,
+      "eligible_lines": 1,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 930,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 931,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 932,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 933,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 934,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 935,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 936,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 937,
+      "eligible_lines": 19,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 938,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 939,
+      "eligible_lines": 21,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 940,
+      "eligible_lines": 6,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 941,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 942,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 943,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 944,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 945,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 946,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 947,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 948,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 949,
+      "eligible_lines": 25,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 950,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 951,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 952,
+      "eligible_lines": 6,
+      "overlap_lines": 2,
+      "fraction": 0.3333333333333333
+    },
+    {
+      "target_index": 953,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 954,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 955,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 956,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 957,
+      "eligible_lines": 9,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 958,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 959,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 960,
+      "eligible_lines": 7,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 961,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 962,
+      "eligible_lines": 8,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 963,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 964,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 965,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 966,
+      "eligible_lines": 4,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 967,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 968,
+      "eligible_lines": 5,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 969,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 970,
+      "eligible_lines": 12,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 971,
+      "eligible_lines": 2,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 972,
+      "eligible_lines": 3,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    },
+    {
+      "target_index": 973,
+      "eligible_lines": 10,
+      "overlap_lines": 0,
+      "fraction": 0.0
+    }
+  ],
+  "method": "Strip comments and whitespace; exclude target lines occurring more than twice (paper §4.5).",
+  "over_half_fraction": 0.0,
+  "scope": "Five bundled APPS training problems vs all 974 MBPP tasks; not the paper full APPS overlap analysis."
+}

@@ -1,0 +1,10 @@
+{"step": 1, "seconds": 0.08160970779135823, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 2, "seconds": 0.16467312490567565, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 3, "seconds": 0.23691504122689366, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 4, "seconds": 0.28719716612249613, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 5, "seconds": 0.31414029095321894, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 6, "seconds": 0.4123658752068877, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 7, "seconds": 0.4542131661437452, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 8, "seconds": 0.513151790946722, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 9, "seconds": 0.5795342908240855, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}
+{"step": 10, "seconds": 0.6444471250288188, "loss": 0.0, "ce_loss": 0.0, "rl_loss": 0.0, "grad_norm": 0.0, "variant": "rl_only"}

@@ -1,0 +1,91 @@
+{"time": "2026-11-14T09:23:02.424187+00:00", "event": "stage_start", "stage": "msp"}
+{"time": "2026-11-14T09:23:06.267141+00:00", "event": "stage_complete", "stage": "msp", "seconds": 3.842966041062027, "steps": 3, "parameters": 694528, "last_loss": 5.041566371917725}
+{"time": "2026-11-14T09:23:06.324936+00:00", "event": "stage_start", "stage": "ntp"}
+{"time": "2026-11-14T09:23:08.956117+00:00", "event": "stage_complete", "stage": "ntp", "seconds": 2.6311864173039794, "steps": 3, "parameters": 694528, "last_loss": 3.4551939964294434}
+{"time": "2026-11-14T09:23:09.007154+00:00", "event": "stage_start", "stage": "sft"}
+{"time": "2026-11-14T09:23:14.493317+00:00", "event": "stage_complete", "stage": "sft", "seconds": 5.486183582805097, "steps": 100, "parameters": 694528, "last_loss": 0.05711793154478073}
+{"time": "2026-11-14T09:23:14.547494+00:00", "event": "stage_start", "stage": "rollouts"}
+{"time": "2026-11-14T09:23:23.238501+00:00", "event": "rollout_problem", "problem": "fixture/train/0", "samples": 5}
+{"time": "2026-11-14T09:23:26.834768+00:00", "event": "rollout_problem", "problem": "fixture/train/1", "samples": 5}
+{"time": "2026-11-14T09:23:30.052647+00:00", "event": "rollout_problem", "problem": "fixture/train/2", "samples": 5}
+{"time": "2026-11-14T09:23:33.176674+00:00", "event": "rollout_problem", "problem": "fixture/train/3", "samples": 5}
+{"time": "2026-11-14T09:23:33.179413+00:00", "event": "stage_complete", "stage": "rollouts", "seconds": 18.626408792100847, "samples": 20, "outcomes": {"compile_error": 18, "passed": 2}, "nonzero_advantages": 2, "references_passed": 4}
+{"time": "2026-11-14T09:23:33.251378+00:00", "event": "stage_start", "stage": "critic4"}
+{"time": "2026-11-14T09:23:36.734544+00:00", "event": "stage_complete", "stage": "critic4", "seconds": 3.478809791151434, "steps": 20, "training_examples": 24, "classes": 4}
+{"time": "2026-11-14T09:23:36.783765+00:00", "event": "stage_start", "stage": "critic2"}
+{"time": "2026-11-14T09:23:38.608922+00:00", "event": "stage_complete", "stage": "critic2", "seconds": 1.8232421670109034, "steps": 20, "training_examples": 24, "classes": 2}
+{"time": "2026-11-14T09:23:38.656569+00:00", "event": "stage_start", "stage": "scores"}
+{"time": "2026-11-14T09:23:39.839754+00:00", "event": "stage_complete", "stage": "scores", "seconds": 1.1820640419609845, "scored": 20, "training_accuracy": 0.9}
+{"time": "2026-11-14T09:23:39.888943+00:00", "event": "stage_start", "stage": "repair"}
+{"time": "2026-11-14T09:23:41.508199+00:00", "event": "stage_complete", "stage": "repair", "seconds": 1.6178546673618257, "steps": 30, "parameters": 694528, "last_loss": 0.057029057294130325}
+{"time": "2026-11-14T09:23:41.559923+00:00", "event": "stage_start", "stage": "eval_sft"}
+{"time": "2026-11-14T09:23:43.995355+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:23:46.609954+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:23:46.627442+00:00", "event": "stage_complete", "stage": "eval_sft", "seconds": 5.063989500049502, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 8, "passed": 2}}
+{"time": "2026-11-14T09:23:46.697193+00:00", "event": "stage_start", "stage": "beam_sft"}
+{"time": "2026-11-14T09:23:51.046099+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:23:53.684958+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:23:53.688048+00:00", "event": "stage_complete", "stage": "beam_sft", "seconds": 6.987552625127137, "problems": 2, "candidates": 10, "outcomes": {"passed": 2, "compile_error": 8}}
+{"time": "2026-11-14T09:23:53.832905+00:00", "event": "stage_start", "stage": "coderl"}
+{"time": "2026-11-14T09:23:55.382855+00:00", "event": "stage_complete", "stage": "coderl", "seconds": 1.5493923746980727, "steps": 10, "parameters": 694528, "last_loss": 0.054018452763557434}
+{"time": "2026-11-14T09:23:55.444138+00:00", "event": "stage_start", "stage": "beam_coderl"}
+{"time": "2026-11-14T09:23:57.943999+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:00.085012+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:00.087425+00:00", "event": "stage_complete", "stage": "beam_coderl", "seconds": 4.64194658305496, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 8, "passed": 2}}
+{"time": "2026-11-14T09:24:00.151748+00:00", "event": "stage_start", "stage": "no_critic"}
+{"time": "2026-11-14T09:24:01.229861+00:00", "event": "stage_complete", "stage": "no_critic", "seconds": 1.0778520829044282, "steps": 10, "parameters": 694528, "last_loss": 0.05403720587491989}
+{"time": "2026-11-14T09:24:01.279771+00:00", "event": "stage_start", "stage": "beam_no_critic"}
+{"time": "2026-11-14T09:24:03.307384+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:05.361622+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:05.363570+00:00", "event": "stage_complete", "stage": "beam_no_critic", "seconds": 4.082974167075008, "problems": 2, "candidates": 10, "outcomes": {"passed": 2, "compile_error": 8}}
+{"time": "2026-11-14T09:24:05.420835+00:00", "event": "stage_start", "stage": "absolute"}
+{"time": "2026-11-14T09:24:06.550853+00:00", "event": "stage_complete", "stage": "absolute", "seconds": 1.1298247082158923, "steps": 10, "parameters": 694528, "last_loss": -0.05525664985179901}
+{"time": "2026-11-14T09:24:06.598795+00:00", "event": "stage_start", "stage": "beam_absolute"}
+{"time": "2026-11-14T09:24:08.674554+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:10.835024+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:10.837403+00:00", "event": "stage_complete", "stage": "beam_absolute", "seconds": 4.238002499565482, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 8, "passed": 2}}
+{"time": "2026-11-14T09:24:10.895295+00:00", "event": "stage_start", "stage": "distance"}
+{"time": "2026-11-14T09:24:12.120309+00:00", "event": "stage_complete", "stage": "distance", "seconds": 1.2248636246658862, "steps": 10, "parameters": 694528, "last_loss": 0.054093681275844574}
+{"time": "2026-11-14T09:24:12.184888+00:00", "event": "stage_start", "stage": "beam_distance"}
+{"time": "2026-11-14T09:24:14.704894+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:16.809547+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:16.811537+00:00", "event": "stage_complete", "stage": "beam_distance", "seconds": 4.626190959010273, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 8, "passed": 2}}
+{"time": "2026-11-14T09:24:16.870707+00:00", "event": "stage_start", "stage": "ce_only"}
+{"time": "2026-11-14T09:24:17.445917+00:00", "event": "stage_complete", "stage": "ce_only", "seconds": 0.575161499902606, "steps": 10, "parameters": 694528, "last_loss": 0.054066721349954605}
+{"time": "2026-11-14T09:24:17.496064+00:00", "event": "stage_start", "stage": "beam_ce_only"}
+{"time": "2026-11-14T09:24:19.794538+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:21.820102+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:21.822481+00:00", "event": "stage_complete", "stage": "beam_ce_only", "seconds": 4.326108082663268, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 8, "passed": 2}}
+{"time": "2026-11-14T09:24:21.876772+00:00", "event": "stage_start", "stage": "ce_synthetic"}
+{"time": "2026-11-14T09:24:22.665525+00:00", "event": "stage_complete", "stage": "ce_synthetic", "seconds": 0.788704083301127, "steps": 10, "parameters": 694528, "last_loss": 0.07324507087469101}
+{"time": "2026-11-14T09:24:22.720850+00:00", "event": "stage_start", "stage": "beam_ce_synthetic"}
+{"time": "2026-11-14T09:24:25.458288+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:28.118031+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:28.120709+00:00", "event": "stage_complete", "stage": "beam_ce_synthetic", "seconds": 5.399592416826636, "problems": 2, "candidates": 10, "outcomes": {"passed": 2, "compile_error": 8}}
+{"time": "2026-11-14T09:24:28.198087+00:00", "event": "stage_start", "stage": "rl_only"}
+{"time": "2026-11-14T09:24:28.888644+00:00", "event": "stage_complete", "stage": "rl_only", "seconds": 0.6905286251567304, "steps": 10, "parameters": 694528, "last_loss": 0.0}
+{"time": "2026-11-14T09:24:28.937987+00:00", "event": "stage_start", "stage": "beam_rl_only"}
+{"time": "2026-11-14T09:24:31.297590+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "fixture/test/4", "passed": 1}
+{"time": "2026-11-14T09:24:33.581888+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:33.583725+00:00", "event": "stage_complete", "stage": "beam_rl_only", "seconds": 4.645578916184604, "problems": 2, "candidates": 10, "outcomes": {"passed": 2, "compile_error": 8}}
+{"time": "2026-11-14T09:24:33.638689+00:00", "event": "stage_start", "stage": "eval_coderl"}
+{"time": "2026-11-14T09:24:35.808576+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "fixture/test/4", "passed": 0}
+{"time": "2026-11-14T09:24:37.817367+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:37.819896+00:00", "event": "stage_complete", "stage": "eval_coderl", "seconds": 4.181098416913301, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 9, "passed": 1}}
+{"time": "2026-11-14T09:24:37.876683+00:00", "event": "stage_start", "stage": "cs_refine"}
+{"time": "2026-11-14T09:24:39.990683+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "fixture/test/4", "passed": 0}
+{"time": "2026-11-14T09:24:44.059776+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "fixture/test/5", "passed": 1}
+{"time": "2026-11-14T09:24:44.064213+00:00", "event": "stage_complete", "stage": "cs_refine", "seconds": 6.18741233414039, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 9, "passed": 1}}
+{"time": "2026-11-14T09:24:44.131896+00:00", "event": "stage_start", "stage": "cs_repair1"}
+{"time": "2026-11-14T09:24:48.445517+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "fixture/test/4", "passed": 0}
+{"time": "2026-11-14T09:24:52.023497+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "fixture/test/5", "passed": 0}
+{"time": "2026-11-14T09:24:52.027978+00:00", "event": "stage_complete", "stage": "cs_repair1", "seconds": 7.895983207970858, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 10}}
+{"time": "2026-11-14T09:24:52.082813+00:00", "event": "stage_start", "stage": "cs_repair2"}
+{"time": "2026-11-14T09:24:59.790046+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "fixture/test/4", "passed": 0}
+{"time": "2026-11-14T09:25:05.115575+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "fixture/test/5", "passed": 0}
+{"time": "2026-11-14T09:25:05.120382+00:00", "event": "stage_complete", "stage": "cs_repair2", "seconds": 13.037475124932826, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 10}}
+{"time": "2026-11-14T09:25:05.195515+00:00", "event": "stage_start", "stage": "cs_repair4"}
+{"time": "2026-11-14T09:25:13.058980+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "fixture/test/4", "passed": 0}
+{"time": "2026-11-14T09:25:19.029090+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "fixture/test/5", "passed": 0}
+{"time": "2026-11-14T09:25:19.033966+00:00", "event": "stage_complete", "stage": "cs_repair4", "seconds": 13.838398625142872, "problems": 2, "candidates": 10, "outcomes": {"compile_error": 10}}
+{"time": "2026-11-14T09:25:19.100040+00:00", "event": "run_finished", "status": "complete"}

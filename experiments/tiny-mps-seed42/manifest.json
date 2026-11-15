@@ -1,0 +1,488 @@
+{
+  "identity": {
+    "config": {
+      "model": "tiny",
+      "revision": null,
+      "device": "auto",
+      "seed": 42,
+      "threads": 4,
+      "batch_size": 1,
+      "grad_accum": 1,
+      "lr": 0.001,
+      "critic_lr": 0.001,
+      "rl_lr": 0.0001,
+      "max_source": 192,
+      "max_target": 64,
+      "generation_batch": 5,
+      "samples": 5,
+      "train_samples": 5,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "msp_steps": 3,
+      "ntp_steps": 3,
+      "sft_steps": 100,
+      "critic_steps": 20,
+      "repair_steps": 30,
+      "rl_steps": 10,
+      "variants": [
+        "coderl",
+        "no_critic",
+        "absolute",
+        "distance",
+        "ce_only",
+        "ce_synthetic",
+        "rl_only"
+      ],
+      "cs_modes": [
+        "refine",
+        "repair1",
+        "repair2",
+        "repair4"
+      ],
+      "test_timeout": 1.0,
+      "program_timeout": 10.0,
+      "mbpp_steps": 10,
+      "mbpp_samples": 5,
+      "max_solutions": 4,
+      "name": "offline-tiny",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim",
+      "train_data": "data/fixtures/addition.jsonl",
+      "test_data": "data/fixtures/addition.jsonl"
+    },
+    "source": "33ce0e07248deeb6b0c46c8505c9d477cbbf6754ed0b0a5eceb09510e27e5fcc",
+    "data": {
+      "train_data": "911106eb80013267f32c9e6604f792582ce87eae99ca1ee9187fbf05bd7e189d",
+      "test_data": "911106eb80013267f32c9e6604f792582ce87eae99ca1ee9187fbf05bd7e189d"
+    }
+  },
+  "environment": {
+    "python": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "platform": "macOS-26.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu": "Apple M1 Pro",
+    "memory_bytes": "17179869184",
+    "device": "mps",
+    "mps_available": true,
+    "cuda_available": false,
+    "versions": {
+      "torch": "2.9.1",
+      "transformers": "4.46.3",
+      "numpy": "2.4.6",
+      "tokenizers": "0.20.3",
+      "safetensors": "0.8.0"
+    },
+    "determinism": "Seeded PRNGs; MPS floating-point kernels may differ between runs/hardware."
+  },
+  "stages": {
+    "msp": {
+      "status": "complete",
+      "seconds": 3.842963249888271,
+      "artifacts": {
+        "checkpoints/msp/model.safetensors": "d94622baab7438b2254b49e523b6e941c235cd5247edb4c1a36a3f5e290fd8ff",
+        "checkpoints/msp/config.json": "fc3037e945b8eab06b9495640dca86867a62f6d0c336f0d520b37131479d46ab",
+        "checkpoints/msp/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/msp/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/msp.jsonl": "1db08204a57ceb0574ca5d770b2d2fc50abb6950a53f38a4cc0f923d17d88b62"
+      },
+      "steps": 3,
+      "parameters": 694528,
+      "last_loss": 5.041566371917725
+    },
+    "ntp": {
+      "status": "complete",
+      "seconds": 2.6311837090179324,
+      "artifacts": {
+        "checkpoints/ntp/model.safetensors": "f7de8d40cbbca9ca25bb766b7b5065cfda778571b49c62959ab5b5f161c1bc1d",
+        "checkpoints/ntp/config.json": "9e9734c57ec8a1169cfe4c0e0c712ec49115cd324bffed9f55ec44663dc72bd2",
+        "checkpoints/ntp/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/ntp/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/ntp.jsonl": "0ff4fdbd4e75ae19973f631a33fc7f74a0dbe865cbad8f71781a6759de71cce1"
+      },
+      "steps": 3,
+      "parameters": 694528,
+      "last_loss": 3.4551939964294434
+    },
+    "sft": {
+      "status": "complete",
+      "seconds": 5.4861808330751956,
+      "artifacts": {
+        "checkpoints/sft/model.safetensors": "bf6c22883a13128d8bfaf1bfa2969bfa474d6ee481fae3c408e1577ed4973d43",
+        "checkpoints/sft/config.json": "6aa1b03f12c6c8667fa3d87444d47a8d02092f0e207810af834f1c7433197c6b",
+        "checkpoints/sft/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/sft/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/sft.jsonl": "4da3356f87f4a0aa5a6276e87e478f3c672af9b7e4e6f756877c968718d40883"
+      },
+      "steps": 100,
+      "parameters": 694528,
+      "last_loss": 0.05711793154478073
+    },
+    "rollouts": {
+      "status": "complete",
+      "seconds": 18.626401042100042,
+      "artifacts": {
+        "rollouts.jsonl": "90d971c75b0f490fe82164f52a1d237d35c910d5fafb4573528a5cb7479ddb38",
+        "baselines.jsonl": "1396c9ca491ddf5ca514079c658d1cede44d46b8bcbc7fc82c9daf60a72559fb",
+        "references.jsonl": "678aab56cab5438ef357af041d87158bbb420095371f76171225e2d56cc1aaf1"
+      },
+      "samples": 20,
+      "outcomes": {
+        "compile_error": 18,
+        "passed": 2
+      },
+      "nonzero_advantages": 2,
+      "references_passed": 4
+    },
+    "critic4": {
+      "status": "complete",
+      "seconds": 3.478804749902338,
+      "artifacts": {
+        "training/critic4.jsonl": "7e2912fef6f55066b9d7c625fc87541a598df252d825fc05dd9907b0307408e4",
+        "checkpoints/critic4/model.safetensors": "9cea5bbc9c2944e39f2282a99a70f47c9dd5a91b2d31cb512dc2daece54baea3",
+        "checkpoints/critic4/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/critic4/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/critic4/critic.json": "cf43dc7dac5528199a77641fff9f2548b34b088650bb1f06dc2a65a60ad096bc",
+        "checkpoints/critic4/critic_head.safetensors": "e86b3bc3d16a55f97ae2834504b6525c82d47ed4cce7d56aca21d0ccf8f7fac2",
+        "checkpoints/critic4/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb"
+      },
+      "steps": 20,
+      "training_examples": 24,
+      "classes": 4
+    },
+    "critic2": {
+      "status": "complete",
+      "seconds": 1.823239624965936,
+      "artifacts": {
+        "training/critic2.jsonl": "29f9aed8b6f72c52eb44ed2fe43d5b21adb131b0b165667c17457f19304508be",
+        "checkpoints/critic2/model.safetensors": "beafbaff32ea1a5379857c03740c1e21ca8e42017ecd8e4f4be928e2a6e16e31",
+        "checkpoints/critic2/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/critic2/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/critic2/critic.json": "b1cd2ec809b9e82dc1cecad7ddbff7a2d4af7899d56c51df0c31664d7d7dec63",
+        "checkpoints/critic2/critic_head.safetensors": "ab4f2368609ae0265e7bb60640037ee499f499b8d956473ec22d53ae88323c7e",
+        "checkpoints/critic2/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb"
+      },
+      "steps": 20,
+      "training_examples": 24,
+      "classes": 2
+    },
+    "scores": {
+      "status": "complete",
+      "seconds": 1.1820627921260893,
+      "artifacts": {
+        "critic_scores.jsonl": "cfaea315467a06427316007a31762d64d552fd6aca68b46678bc81003a3ce760"
+      },
+      "scored": 20,
+      "training_accuracy": 0.9
+    },
+    "repair": {
+      "status": "complete",
+      "seconds": 1.6178505844436586,
+      "artifacts": {
+        "checkpoints/repair/model.safetensors": "b9a0143eeeea29235050a69e51d7ab3ca51287c3541de3f9512d1909a8d0a53f",
+        "checkpoints/repair/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/repair/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/repair/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/repair.jsonl": "6eb85125cda9e6157798341165c14ab64c40f8e5eb02e73f1b061b225ffe5c97"
+      },
+      "steps": 30,
+      "parameters": 694528,
+      "last_loss": 0.057029057294130325
+    },
+    "eval_sft": {
+      "status": "complete",
+      "seconds": 5.063982709310949,
+      "artifacts": {
+        "evaluations/sft.jsonl": "4e8c46907398753e3390fd1d7e8b13bbbcf0a467828549bb794b39c9e4e05ce4",
+        "metrics/sft.json": "97bad888882e57bac7d492acc15516f32257c0a744aa1610d02044767da205ad"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      }
+    },
+    "beam_sft": {
+      "status": "complete",
+      "seconds": 6.987531542312354,
+      "artifacts": {
+        "evaluations/sft_beam.jsonl": "dd7ec3beff74aea354238318fcbd2861ac1da9e7b80a634ca160095ee75ef10a",
+        "metrics/sft_beam.json": "0db5208c5b1f2c5648d45a8a164d5fcd1b0c4ab107fcd367089ae8eb44b5dbf7"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      }
+    },
+    "coderl": {
+      "status": "complete",
+      "seconds": 1.5493854167871177,
+      "artifacts": {
+        "checkpoints/coderl/model.safetensors": "0d01ab84f6fbc3d474bb303240d2f2c306a1ac7ff44d48bb1ef86d81658695c0",
+        "checkpoints/coderl/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/coderl/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/coderl/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/coderl.jsonl": "d65eb0f0e750f98083c3a0ffb87e1230dd5342fdc16a4c869af832293c567071"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": 0.054018452763557434
+    },
+    "beam_coderl": {
+      "status": "complete",
+      "seconds": 4.641940500121564,
+      "artifacts": {
+        "evaluations/coderl_beam.jsonl": "ebfe56feaf2c9610d8b52a7428d9a247cdfffb46dca1ad7607646c7c01cf5400",
+        "metrics/coderl_beam.json": "89456d08c4dbdecd00f576c53bc82822b40853378a07ac9988fc894dcb4645ec"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      }
+    },
+    "no_critic": {
+      "status": "complete",
+      "seconds": 1.077849917113781,
+      "artifacts": {
+        "checkpoints/no_critic/model.safetensors": "f05cd1c822bf7b0925e9559bc4017162db432d4871685537fe593b03c430b56e",
+        "checkpoints/no_critic/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/no_critic/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/no_critic/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/no_critic.jsonl": "7c233e351f9e2ab1069e36338cc61e78163129e1287737d3b5a6c685a8958431"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": 0.05403720587491989
+    },
+    "beam_no_critic": {
+      "status": "complete",
+      "seconds": 4.0829674592241645,
+      "artifacts": {
+        "evaluations/no_critic_beam.jsonl": "4a6cc314ae73169ce484af071a68d36c9bdeaeb56749cd88c6b50194b012e932",
+        "metrics/no_critic_beam.json": "0db5208c5b1f2c5648d45a8a164d5fcd1b0c4ab107fcd367089ae8eb44b5dbf7"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      }
+    },
+    "absolute": {
+      "status": "complete",
+      "seconds": 1.1298226662911475,
+      "artifacts": {
+        "checkpoints/absolute/model.safetensors": "4dc2b01bd8fdd066d73bd91776b1c81b59489870203a281ddfb09bec9e60813b",
+        "checkpoints/absolute/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/absolute/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/absolute/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/absolute.jsonl": "5214fb7b53c58035893db3db9b130e39686ae00884a33d879bdde6412e2027e0"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": -0.05525664985179901
+    },
+    "beam_absolute": {
+      "status": "complete",
+      "seconds": 4.2379966247826815,
+      "artifacts": {
+        "evaluations/absolute_beam.jsonl": "414bd7bc3e8f4e92f5d35c9ac275d41939f7db73ecccc645747d946eb14d4bd6",
+        "metrics/absolute_beam.json": "b87db2714b53b0f9bfd9cbc482395749e78078b87f70810eea5df889a6fb53b6"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      }
+    },
+    "distance": {
+      "status": "complete",
+      "seconds": 1.224856499582529,
+      "artifacts": {
+        "checkpoints/distance/model.safetensors": "57e8387b51b1d2bfa30f9847d23203c5cbc45032ccf69c97e67fa2834463933a",
+        "checkpoints/distance/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/distance/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/distance/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/distance.jsonl": "9c979d9b916a5743c79f6392187241fceced65bfefe2ab123de91187156df012"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": 0.054093681275844574
+    },
+    "beam_distance": {
+      "status": "complete",
+      "seconds": 4.62618612498045,
+      "artifacts": {
+        "evaluations/distance_beam.jsonl": "f351cd7365e3455fc1a40a71cb771e84e72bb07359eb61d91674422c912c4964",
+        "metrics/distance_beam.json": "b87db2714b53b0f9bfd9cbc482395749e78078b87f70810eea5df889a6fb53b6"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      }
+    },
+    "ce_only": {
+      "status": "complete",
+      "seconds": 0.5751592093147337,
+      "artifacts": {
+        "checkpoints/ce_only/model.safetensors": "513a14f0c20cb63144468918a76ec04fa5083257c73716356622190c3b980c4f",
+        "checkpoints/ce_only/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/ce_only/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/ce_only/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/ce_only.jsonl": "9dd26d7e5512482ff003905202a656d6cf2734a87448baab9f3ce7a86b105e63"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": 0.054066721349954605
+    },
+    "beam_ce_only": {
+      "status": "complete",
+      "seconds": 4.326101707760245,
+      "artifacts": {
+        "evaluations/ce_only_beam.jsonl": "5e8f143e2c55e38293cf014320f46a94e256218c221c3f1865e2ae3d0a38ff83",
+        "metrics/ce_only_beam.json": "89456d08c4dbdecd00f576c53bc82822b40853378a07ac9988fc894dcb4645ec"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      }
+    },
+    "ce_synthetic": {
+      "status": "complete",
+      "seconds": 0.7886970830149949,
+      "artifacts": {
+        "checkpoints/ce_synthetic/model.safetensors": "3ce9a72fbc719c5683d1762cba074872ceaf264d5d557f1e59c5498651eaf977",
+        "checkpoints/ce_synthetic/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/ce_synthetic/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/ce_synthetic/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/ce_synthetic.jsonl": "27a7d74a834ff2b39d6b43286b8afc1d10568a11072e5930d5d133f2cd4b49cc"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": 0.07324507087469101
+    },
+    "beam_ce_synthetic": {
+      "status": "complete",
+      "seconds": 5.399580666795373,
+      "artifacts": {
+        "evaluations/ce_synthetic_beam.jsonl": "c689f950ae9b49e7cf73f6c9702596692e49be1dbd80d842c5d8e1f8fe0dc80d",
+        "metrics/ce_synthetic_beam.json": "0db5208c5b1f2c5648d45a8a164d5fcd1b0c4ab107fcd367089ae8eb44b5dbf7"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      }
+    },
+    "rl_only": {
+      "status": "complete",
+      "seconds": 0.6905257091857493,
+      "artifacts": {
+        "checkpoints/rl_only/model.safetensors": "23252f7562713a6357b8d7a6edd6a939e8c30fc5aff95b4ea777e40a99fc6825",
+        "checkpoints/rl_only/config.json": "6bbe4468c1d8950f60e0b384815a3b964a82cc05e8308b6586e9635b4ec5f86e",
+        "checkpoints/rl_only/generation_config.json": "8654c9f16c7d2ab8bb50074114ebf62bc1b0fbd50eaf7a93807c511799ddc3d1",
+        "checkpoints/rl_only/byte_tokenizer.json": "50208d78350a7a160dec59a82df1499b6ca7da33e54c5eb11c97e342118e68bb",
+        "training/rl_only.jsonl": "ac960e21095df61c1dbe00c8cf3dcdacf30c43a3c7bb91e9b133960e919ae4e1"
+      },
+      "steps": 10,
+      "parameters": 694528,
+      "last_loss": 0.0
+    },
+    "beam_rl_only": {
+      "status": "complete",
+      "seconds": 4.6455751662142575,
+      "artifacts": {
+        "evaluations/rl_only_beam.jsonl": "faa202abfc38417d6abe59b0c2630059033a1d652618fdd7f31f6666be71a729",
+        "metrics/rl_only_beam.json": "0db5208c5b1f2c5648d45a8a164d5fcd1b0c4ab107fcd367089ae8eb44b5dbf7"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      }
+    },
+    "eval_coderl": {
+      "status": "complete",
+      "seconds": 4.181092083919793,
+      "artifacts": {
+        "evaluations/coderl.jsonl": "f3f5d8aebe04351a1cd404f0c7f8fbb0c0279fb329e1c9813ebbf253c42bec42",
+        "metrics/coderl.json": "7e492593ae0b3387b4aec3b689ed676cf81f237bb50ee6ebdd876c115678eed5"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 9,
+        "passed": 1
+      }
+    },
+    "cs_refine": {
+      "status": "complete",
+      "seconds": 6.1873996667563915,
+      "artifacts": {
+        "evaluations/cs_refine.jsonl": "b2bfc4517a53d4ae65a1a714265c820329ebef2247b9475f07184191c43a0b4e",
+        "metrics/cs_refine.json": "d3d2f7dc443a0f6f630c390cbf3d4896438118655fa802b6f02a46fa55d53651",
+        "traces/cs_refine.json": "09fcd0797c59ca35286e006a6db8ea1f777eba6bd1ca9da0eace559b04de1059"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 9,
+        "passed": 1
+      }
+    },
+    "cs_repair1": {
+      "status": "complete",
+      "seconds": 7.8959779581055045,
+      "artifacts": {
+        "evaluations/cs_repair1.jsonl": "b14135c26e917e2affafa5f1c4c4fad5ca741208b7eb5a0eae76bba29d3b1e70",
+        "metrics/cs_repair1.json": "debe85cac4450388526e02551169ca1cea031185ed53693a782dd3d61f805eab",
+        "traces/cs_repair1.json": "2f80b1ad0573d25e74eee5f51c54ab56597a7bac5ecdd8ec90f705c9b7b94328"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 10
+      }
+    },
+    "cs_repair2": {
+      "status": "complete",
+      "seconds": 13.037458875216544,
+      "artifacts": {
+        "evaluations/cs_repair2.jsonl": "44fabcccadb3590760aecbd70cebd2e747b2cd58c5cb89561c6163384f91b257",
+        "metrics/cs_repair2.json": "debe85cac4450388526e02551169ca1cea031185ed53693a782dd3d61f805eab",
+        "traces/cs_repair2.json": "a8a1885d642715c30fb7d35f53e837f2a31d9eef2c0945ca7632c483d82be9a8"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 10
+      }
+    },
+    "cs_repair4": {
+      "status": "complete",
+      "seconds": 13.838389209005982,
+      "artifacts": {
+        "evaluations/cs_repair4.jsonl": "30d0840f903e4bc36ebe8f4c05d3b27a351a22cde1b9d674874a026792a059ce",
+        "metrics/cs_repair4.json": "debe85cac4450388526e02551169ca1cea031185ed53693a782dd3d61f805eab",
+        "traces/cs_repair4.json": "6190d612d3b91215024b7ae7e25351ce662a939f2bc731291ae892e71ab0e12b"
+      },
+      "problems": 2,
+      "candidates": 10,
+      "outcomes": {
+        "compile_error": 10
+      }
+    }
+  },
+  "started_at": "2026-11-14T09:23:02.394293+00:00",
+  "status": "complete"
+}

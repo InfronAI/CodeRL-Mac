@@ -1,0 +1,510 @@
+{
+  "stage_seconds": 134.87716338131577,
+  "losses": {
+    "absolute": {
+      "first": -0.009577155113220215,
+      "last": -0.05525664985179901,
+      "steps": 10
+    },
+    "ce_only": {
+      "first": 0.06304410845041275,
+      "last": 0.054066721349954605,
+      "steps": 10
+    },
+    "ce_synthetic": {
+      "first": 0.07686284184455872,
+      "last": 0.07324507087469101,
+      "steps": 10
+    },
+    "coderl": {
+      "first": 0.06304410845041275,
+      "last": 0.054018452763557434,
+      "steps": 10
+    },
+    "critic2": {
+      "first": 0.33560997247695923,
+      "last": 0.0024129818193614483,
+      "steps": 20
+    },
+    "critic4": {
+      "first": 1.5197830200195312,
+      "last": 0.007026249077171087,
+      "steps": 20
+    },
+    "distance": {
+      "first": 0.06304410845041275,
+      "last": 0.054093681275844574,
+      "steps": 10
+    },
+    "msp": {
+      "first": 6.878390789031982,
+      "last": 5.041566371917725,
+      "steps": 3
+    },
+    "no_critic": {
+      "first": 0.06304410845041275,
+      "last": 0.05403720587491989,
+      "steps": 10
+    },
+    "ntp": {
+      "first": 4.988361358642578,
+      "last": 3.4551939964294434,
+      "steps": 3
+    },
+    "repair": {
+      "first": 0.06414062529802322,
+      "last": 0.057029057294130325,
+      "steps": 30
+    },
+    "rl_only": {
+      "first": 0.0,
+      "last": 0.0,
+      "steps": 10
+    },
+    "sft": {
+      "first": 3.2561066150665283,
+      "last": 0.05711793154478073,
+      "steps": 100
+    }
+  },
+  "nonzero_policy_steps": 1,
+  "metrics": {
+    "absolute_beam": {
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "ce_only_beam": {
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 0.5
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "ce_synthetic_beam": {
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 1.0
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "coderl": {
+      "pass@1": {
+        "mean": 0.1,
+        "ci95": [
+          0.0,
+          0.2
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.5,
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 9,
+        "passed": 1
+      },
+      "problems": 2,
+      "candidates": 10,
+      "by_difficulty": {
+        "fixture": {
+          "pass@1": 0.1,
+          "pass@5": 0.5
+        }
+      },
+      "1@5": {
+        "mean": 0.5,
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.5,
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "coderl_beam": {
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 0.5
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "cs_refine": {
+      "pass@1": {
+        "mean": 0.1,
+        "ci95": [
+          0.0,
+          0.2
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.5,
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 9,
+        "passed": 1
+      },
+      "problems": 2,
+      "candidates": 10,
+      "by_difficulty": {
+        "fixture": {
+          "pass@1": 0.1,
+          "pass@5": 0.5
+        }
+      },
+      "1@5": {
+        "mean": 0.5,
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.5,
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "cs_repair1": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 10
+      },
+      "problems": 2,
+      "candidates": 10,
+      "by_difficulty": {
+        "fixture": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "cs_repair2": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 10
+      },
+      "problems": 2,
+      "candidates": 10,
+      "by_difficulty": {
+        "fixture": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "cs_repair4": {
+      "pass@1": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 10
+      },
+      "problems": 2,
+      "candidates": 10,
+      "by_difficulty": {
+        "fixture": {
+          "pass@1": 0.0,
+          "pass@5": 0.0
+        }
+      },
+      "1@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus + critic sampling (dependent samples)",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "distance_beam": {
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 0.0
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "no_critic_beam": {
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 1.0
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "rl_only_beam": {
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 1.0
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "sft": {
+      "pass@1": {
+        "mean": 0.2,
+        "ci95": [
+          0.2,
+          0.2
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "pass@5": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "outcomes": {
+        "compile_error": 8,
+        "passed": 2
+      },
+      "problems": 2,
+      "candidates": 10,
+      "by_difficulty": {
+        "fixture": {
+          "pass@1": 0.2,
+          "pass@5": 1.0
+        }
+      },
+      "1@5": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "5@5": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "problems": 2,
+        "method": "percentile bootstrap over problems; small samples have low power"
+      },
+      "decoding": "nucleus",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    },
+    "sft_beam": {
+      "outcomes": {
+        "passed": 2,
+        "compile_error": 8
+      },
+      "problems": 2,
+      "candidates": 10,
+      "beam_pass@1": {
+        "mean": 1.0
+      },
+      "beam_pass@5": {
+        "mean": 1.0
+      },
+      "decoding": "beam",
+      "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{"time": "2026-11-14T09:29:50.995049+00:00", "event": "stage_start", "stage": "msp"}
+{"time": "2026-11-14T09:29:55.051504+00:00", "event": "stage_complete", "stage": "msp", "seconds": 4.05643825000152, "steps": 2, "parameters": 60492288, "last_loss": 4.508975028991699}
+{"time": "2026-11-14T09:29:55.167690+00:00", "event": "stage_start", "stage": "ntp"}
+{"time": "2026-11-14T09:29:57.240965+00:00", "event": "stage_complete", "stage": "ntp", "seconds": 2.073267125058919, "steps": 2, "parameters": 60492288, "last_loss": 8.242019653320312}
+{"time": "2026-11-14T09:29:57.318773+00:00", "event": "stage_start", "stage": "sft"}
+{"time": "2026-11-14T09:30:42.715924+00:00", "event": "stage_complete", "stage": "sft", "seconds": 45.39668016601354, "steps": 40, "parameters": 60492288, "last_loss": 3.4009101390838623}
+{"time": "2026-11-14T09:30:42.850838+00:00", "event": "stage_start", "stage": "rollouts"}
+{"time": "2026-11-14T09:30:56.566198+00:00", "event": "rollout_problem", "problem": "apps/train/0001", "samples": 5}
+{"time": "2026-11-14T09:31:03.456306+00:00", "event": "rollout_problem", "problem": "apps/train/0111", "samples": 5}
+{"time": "2026-11-14T09:31:10.577757+00:00", "event": "rollout_problem", "problem": "apps/train/2287", "samples": 5}
+{"time": "2026-11-14T09:31:17.297906+00:00", "event": "rollout_problem", "problem": "apps/train/2404", "samples": 5}
+{"time": "2026-11-14T09:31:24.163756+00:00", "event": "rollout_problem", "problem": "apps/train/4184", "samples": 5}
+{"time": "2026-11-14T09:31:24.171235+00:00", "event": "stage_complete", "stage": "rollouts", "seconds": 41.3203277499415, "samples": 25, "outcomes": {"compile_error": 24, "runtime_error": 1}, "nonzero_advantages": 6, "references_passed": 9}
+{"time": "2026-11-14T09:31:24.280878+00:00", "event": "stage_start", "stage": "critic4"}
+{"time": "2026-11-14T09:31:46.580572+00:00", "event": "stage_complete", "stage": "critic4", "seconds": 22.29962220788002, "steps": 20, "training_examples": 34, "classes": 4}
+{"time": "2026-11-14T09:31:46.827402+00:00", "event": "stage_start", "stage": "critic2"}
+{"time": "2026-11-14T09:32:03.916255+00:00", "event": "stage_complete", "stage": "critic2", "seconds": 17.08880712511018, "steps": 20, "training_examples": 34, "classes": 2}
+{"time": "2026-11-14T09:32:04.039809+00:00", "event": "stage_start", "stage": "scores"}
+{"time": "2026-11-14T09:32:05.344945+00:00", "event": "stage_complete", "stage": "scores", "seconds": 1.3051352077163756, "scored": 25, "training_accuracy": 1.0}
+{"time": "2026-11-14T09:32:05.403594+00:00", "event": "stage_start", "stage": "repair"}
+{"time": "2026-11-14T09:32:29.996114+00:00", "event": "stage_complete", "stage": "repair", "seconds": 24.592080959118903, "steps": 20, "parameters": 60492288, "last_loss": 3.0226986408233643}
+{"time": "2026-11-14T09:32:30.138693+00:00", "event": "stage_start", "stage": "eval_sft"}
+{"time": "2026-11-14T09:32:35.012616+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:32:38.863877+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:32:42.423826+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:32:46.163818+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:32:49.726623+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:32:53.316040+00:00", "event": "evaluation_problem", "variant": "sft", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:32:53.346235+00:00", "event": "stage_complete", "stage": "eval_sft", "seconds": 23.207508665975183, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T09:32:53.463338+00:00", "event": "stage_start", "stage": "beam_sft"}
+{"time": "2026-11-14T09:33:00.036013+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:33:04.609712+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:33:08.686275+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:33:12.959925+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:33:17.135093+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:33:21.447905+00:00", "event": "evaluation_problem", "variant": "sft_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:33:21.453442+00:00", "event": "stage_complete", "stage": "beam_sft", "seconds": 27.991528749931604, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T09:33:21.580189+00:00", "event": "stage_start", "stage": "coderl"}
+{"time": "2026-11-14T09:38:36.313848+00:00", "event": "stage_complete", "stage": "coderl", "seconds": 16.34379395795986, "steps": 10, "parameters": 60492288, "last_loss": 2.2488168478012085}
+{"time": "2026-11-14T09:38:36.456116+00:00", "event": "stage_start", "stage": "beam_coderl"}
+{"time": "2026-11-14T09:38:41.272440+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:38:45.399203+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:38:49.370180+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:38:53.318809+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:38:57.650762+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:39:01.931437+00:00", "event": "evaluation_problem", "variant": "coderl_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:39:01.941958+00:00", "event": "stage_complete", "stage": "beam_coderl", "seconds": 25.493523666635156, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 29, "runtime_error": 1}}
+{"time": "2026-11-14T09:39:02.027877+00:00", "event": "stage_start", "stage": "no_critic"}
+{"time": "2026-11-14T09:39:18.974466+00:00", "event": "stage_complete", "stage": "no_critic", "seconds": 16.853102624882013, "steps": 10, "parameters": 60492288, "last_loss": 2.188345432281494}
+{"time": "2026-11-14T09:39:19.101690+00:00", "event": "stage_start", "stage": "beam_no_critic"}
+{"time": "2026-11-14T09:39:23.815088+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:39:27.978625+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:39:32.000673+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:39:35.940964+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:39:40.178575+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:39:44.431707+00:00", "event": "evaluation_problem", "variant": "no_critic_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:39:44.436765+00:00", "event": "stage_complete", "stage": "beam_no_critic", "seconds": 25.335672415792942, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T09:39:44.508420+00:00", "event": "stage_start", "stage": "absolute"}
+{"time": "2026-11-14T09:45:04.774659+00:00", "event": "stage_complete", "stage": "absolute", "seconds": 21.300292416941375, "steps": 10, "parameters": 60492288, "last_loss": 0.6587791442871094}
+{"time": "2026-11-14T09:45:04.906455+00:00", "event": "stage_start", "stage": "beam_absolute"}
+{"time": "2026-11-14T09:45:09.678085+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:45:13.789213+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:45:17.831118+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:45:21.652221+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:45:25.884142+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:45:38.406679+00:00", "event": "evaluation_problem", "variant": "absolute_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:45:38.412554+00:00", "event": "stage_complete", "stage": "beam_absolute", "seconds": 33.50627470901236, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T09:45:38.483878+00:00", "event": "stage_start", "stage": "distance"}
+{"time": "2026-11-14T09:46:20.180746+00:00", "event": "stage_complete", "stage": "distance", "seconds": 15.955325750168413, "steps": 10, "parameters": 60492288, "last_loss": 2.605740964412689}
+{"time": "2026-11-14T09:46:20.321355+00:00", "event": "stage_start", "stage": "beam_distance"}
+{"time": "2026-11-14T09:46:25.244309+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:46:29.563445+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:46:33.681850+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:46:37.741124+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:46:42.221721+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:46:50.013749+00:00", "event": "evaluation_problem", "variant": "distance_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:46:50.020655+00:00", "event": "stage_complete", "stage": "beam_distance", "seconds": 29.699433834291995, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T09:46:50.135113+00:00", "event": "stage_start", "stage": "ce_only"}
+{"time": "2026-11-14T09:47:05.106510+00:00", "event": "stage_complete", "stage": "ce_only", "seconds": 11.887034667190164, "steps": 10, "parameters": 60492288, "last_loss": 3.0481462478637695}
+{"time": "2026-11-14T09:47:05.225270+00:00", "event": "stage_start", "stage": "beam_ce_only"}
+{"time": "2026-11-14T09:47:10.010976+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T09:47:14.236454+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T09:47:18.307924+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T09:47:22.312508+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T09:47:26.637518+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T09:47:30.884904+00:00", "event": "evaluation_problem", "variant": "ce_only_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T09:47:30.890139+00:00", "event": "stage_complete", "stage": "beam_ce_only", "seconds": 25.664984040893614, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T09:47:30.961049+00:00", "event": "stage_start", "stage": "ce_synthetic"}
+{"time": "2026-11-14T09:47:42.963476+00:00", "event": "stage_complete", "stage": "ce_synthetic", "seconds": 12.002462499774992, "steps": 10, "parameters": 60492288, "last_loss": 3.386082172393799}
+{"time": "2026-11-14T09:47:43.079733+00:00", "event": "stage_start", "stage": "beam_ce_synthetic"}
+{"time": "2026-11-14T10:02:49.451429+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:02:54.135073+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:02:58.465723+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:03:02.520911+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:03:07.116999+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:03:11.336183+00:00", "event": "evaluation_problem", "variant": "ce_synthetic_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:03:11.347820+00:00", "event": "stage_complete", "stage": "beam_ce_synthetic", "seconds": 27.172317875083536, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 30}}
+{"time": "2026-11-14T10:03:11.463402+00:00", "event": "stage_start", "stage": "rl_only"}
+{"time": "2026-11-14T10:03:15.919682+00:00", "event": "stage_complete", "stage": "rl_only", "seconds": 4.454108125064522, "steps": 10, "parameters": 60492288, "last_loss": 0.0}
+{"time": "2026-11-14T10:03:16.013640+00:00", "event": "stage_start", "stage": "beam_rl_only"}
+{"time": "2026-11-14T10:03:20.732154+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:03:28.433988+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:03:32.791845+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:03:36.843864+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:03:41.205494+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:03:45.553217+00:00", "event": "evaluation_problem", "variant": "rl_only_beam", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:03:45.559705+00:00", "event": "stage_complete", "stage": "beam_rl_only", "seconds": 29.540574457962066, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 29, "runtime_error": 1}}
+{"time": "2026-11-14T10:03:45.669091+00:00", "event": "stage_start", "stage": "eval_coderl"}
+{"time": "2026-11-14T10:03:50.106217+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:03:54.068154+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:03:57.515322+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:04:01.030757+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:04:04.782576+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:04:08.416038+00:00", "event": "evaluation_problem", "variant": "coderl", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:04:08.422027+00:00", "event": "stage_complete", "stage": "eval_coderl", "seconds": 22.752171041909605, "problems": 6, "candidates": 30, "outcomes": {"failed": 2, "compile_error": 28}}
+{"time": "2026-11-14T10:04:08.521479+00:00", "event": "stage_start", "stage": "cs_refine"}
+{"time": "2026-11-14T10:04:13.352749+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:04:17.283554+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:04:21.154623+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:04:25.505887+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:04:29.403327+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:04:33.276762+00:00", "event": "evaluation_problem", "variant": "cs_refine", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:04:33.288713+00:00", "event": "stage_complete", "stage": "cs_refine", "seconds": 24.71137295803055, "problems": 6, "candidates": 30, "outcomes": {"failed": 2, "compile_error": 28}}
+{"time": "2026-11-14T10:04:33.362957+00:00", "event": "stage_start", "stage": "cs_repair1"}
+{"time": "2026-11-14T10:04:42.333332+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:04:50.044086+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:05:00.428784+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:05:07.617004+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:16:30.627215+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:16:50.447214+00:00", "event": "evaluation_problem", "variant": "cs_repair1", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:16:50.478544+00:00", "event": "stage_complete", "stage": "cs_repair1", "seconds": 70.61423420812935, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 27, "failed": 2, "runtime_error": 1}}
+{"time": "2026-11-14T10:16:50.622430+00:00", "event": "stage_start", "stage": "cs_repair2"}
+{"time": "2026-11-14T10:17:12.575800+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:17:30.689127+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:17:45.469492+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:17:58.914959+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:18:13.884892+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:18:35.619445+00:00", "event": "evaluation_problem", "variant": "cs_repair2", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:18:35.641984+00:00", "event": "stage_complete", "stage": "cs_repair2", "seconds": 105.01966412505135, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 29, "failed": 1}}
+{"time": "2026-11-14T10:18:35.776237+00:00", "event": "stage_start", "stage": "cs_repair4"}
+{"time": "2026-11-14T10:19:04.978118+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "apps/test/4000", "passed": 0}
+{"time": "2026-11-14T10:19:25.076850+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "apps/test/4001", "passed": 0}
+{"time": "2026-11-14T10:19:48.607873+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "apps/test/0000", "passed": 0}
+{"time": "2026-11-14T10:20:12.385385+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "apps/test/0001", "passed": 0}
+{"time": "2026-11-14T10:20:32.156906+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "apps/test/3000", "passed": 0}
+{"time": "2026-11-14T10:20:55.629453+00:00", "event": "evaluation_problem", "variant": "cs_repair4", "problem": "apps/test/3001", "passed": 0}
+{"time": "2026-11-14T10:20:55.656357+00:00", "event": "stage_complete", "stage": "cs_repair4", "seconds": 139.86898199981079, "problems": 6, "candidates": 30, "outcomes": {"compile_error": 27, "runtime_error": 3}}
+{"time": "2026-11-14T10:20:55.789176+00:00", "event": "stage_start", "stage": "mbpp_zero_sft"}
+{"time": "2026-11-14T10:20:58.884888+00:00", "event": "evaluation_problem", "variant": "mbpp_zero_sft", "problem": "mbpp/11", "passed": 0}
+{"time": "2026-11-14T10:21:03.863275+00:00", "event": "evaluation_problem", "variant": "mbpp_zero_sft", "problem": "mbpp/12", "passed": 0}
+{"time": "2026-11-14T10:21:08.976893+00:00", "event": "evaluation_problem", "variant": "mbpp_zero_sft", "problem": "mbpp/13", "passed": 0}
+{"time": "2026-11-14T10:21:08.983102+00:00", "event": "stage_complete", "stage": "mbpp_zero_sft", "seconds": 13.188874084036797, "problems": 3, "candidates": 15, "outcomes": {"compile_error": 15}}
+{"time": "2026-11-14T10:21:09.090970+00:00", "event": "stage_start", "stage": "mbpp_zero_coderl"}
+{"time": "2026-11-14T10:21:12.016768+00:00", "event": "evaluation_problem", "variant": "mbpp_zero_coderl", "problem": "mbpp/11", "passed": 0}
+{"time": "2026-11-14T10:21:16.720509+00:00", "event": "evaluation_problem", "variant": "mbpp_zero_coderl", "problem": "mbpp/12", "passed": 0}
+{"time": "2026-11-14T10:21:22.332889+00:00", "event": "evaluation_problem", "variant": "mbpp_zero_coderl", "problem": "mbpp/13", "passed": 0}
+{"time": "2026-11-14T10:21:22.339835+00:00", "event": "stage_complete", "stage": "mbpp_zero_coderl", "seconds": 13.246674291789532, "problems": 3, "candidates": 15, "outcomes": {"compile_error": 15}}
+{"time": "2026-11-14T10:21:22.461647+00:00", "event": "stage_start", "stage": "mbpp_finetune"}
+{"time": "2026-11-14T10:21:29.830066+00:00", "event": "stage_complete", "stage": "mbpp_finetune", "seconds": 7.367765957955271, "steps": 20, "parameters": 60492288, "last_loss": 4.405213356018066}
+{"time": "2026-11-14T10:21:29.961726+00:00", "event": "stage_start", "stage": "mbpp_eval_finetuned"}
+{"time": "2026-11-14T10:21:35.427184+00:00", "event": "evaluation_problem", "variant": "mbpp_finetuned", "problem": "mbpp/11", "passed": 0}
+{"time": "2026-11-14T10:21:40.969395+00:00", "event": "evaluation_problem", "variant": "mbpp_finetuned", "problem": "mbpp/12", "passed": 0}
+{"time": "2026-11-14T10:21:46.493144+00:00", "event": "evaluation_problem", "variant": "mbpp_finetuned", "problem": "mbpp/13", "passed": 0}
+{"time": "2026-11-14T10:21:46.500038+00:00", "event": "stage_complete", "stage": "mbpp_eval_finetuned", "seconds": 16.537576750386506, "problems": 3, "candidates": 15, "outcomes": {"compile_error": 15}}
+{"time": "2026-11-14T10:21:46.603013+00:00", "event": "run_finished", "status": "complete"}

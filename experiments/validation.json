@@ -1,0 +1,53 @@
+{
+  "runs": {
+    "experiments/tiny-mps-final": {
+      "status": "complete",
+      "checked_files": 105,
+      "mismatches": [],
+      "source_matches_current": true,
+      "source_zip_error": null
+    },
+    "experiments/tiny-cpu-final": {
+      "status": "complete",
+      "checked_files": 105,
+      "mismatches": [],
+      "source_matches_current": true,
+      "source_zip_error": null
+    },
+    "experiments/m1-codet5-small": {
+      "status": "complete",
+      "checked_files": 172,
+      "mismatches": [],
+      "source_matches_current": true,
+      "source_zip_error": null
+    }
+  },
+  "readme_links": {
+    "README.md": {
+      "checked": 31,
+      "missing": []
+    },
+    "README.zh-CN.md": {
+      "checked": 31,
+      "missing": []
+    }
+  },
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 800,
+        "pix_fmt": "yuv420p"
+      }
+    ],
+    "format": {
+      "duration": "42.000000",
+      "size": "454730"
+    }
+  },
+  "demo_greedy_outcome": "passed",
+  "media_sha256": "3a2b03c53e2807df94fbac1ce958588ba62daef7ae4b038ea6d446fea1c41107"
+}

@@ -1,0 +1,15 @@
+{
+  "outcomes": {
+    "compile_error": 30
+  },
+  "problems": 6,
+  "candidates": 30,
+  "beam_pass@1": {
+    "mean": 0.0
+  },
+  "beam_pass@5": {
+    "mean": 0.0
+  },
+  "decoding": "beam",
+  "scope": "Reduced-scale CodeT5-small mechanism/benchmark smoke experiment: 5 APPS train problems, 6 test problems (2 per difficulty), 3 MBPP test problems; not paper-scale reproduction"
+}

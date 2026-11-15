@@ -1,0 +1,10 @@
+{
+  "video": "demo.mp4",
+  "duration_seconds": 42,
+  "frames": 252,
+  "fps": 6,
+  "width": 1280,
+  "height": 800,
+  "source": "demo-capture.json",
+  "kind": "actual stdout replay, not a desktop screen recording"
+}

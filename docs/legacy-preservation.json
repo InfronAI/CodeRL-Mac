@@ -1,0 +1,152 @@
+[
+  {
+    "original": "extract_example_test.ipynb",
+    "preserved": "legacy/extract_example_test.ipynb",
+    "identical": true,
+    "sha256": "43f2145cadac19385ddaac9ba7a8146e89bd1379083cb922b6d4ba0c5c9e4a85"
+  },
+  {
+    "original": "test_one_solution.py",
+    "preserved": "legacy/test_one_solution.py",
+    "identical": true,
+    "sha256": "505b17021d1fa214a6ec97f4fe3cdcb5f9052d92cc7dd0604a6340b83a0a190a"
+  },
+  {
+    "original": "requirements.txt",
+    "preserved": "legacy/requirements.txt",
+    "identical": true,
+    "sha256": "6820ed4cf37c14846f16743324660308820835e9336acc79d36a4e74c5f8218a"
+  },
+  {
+    "original": "generate.py",
+    "preserved": "legacy/generate.py",
+    "identical": true,
+    "sha256": "9ba0125588d7cd6dfac0cfeb5cf0a96bac040282e641b10fb415256e3d5b18d6"
+  },
+  {
+    "original": "train.py",
+    "preserved": "legacy/train.py",
+    "identical": true,
+    "sha256": "6fbf9e7dcc3dd950053420e3033697b185dcbbcfa86ecdc3303215c209a9b39e"
+  },
+  {
+    "original": "datasets/reindent.py",
+    "preserved": "legacy/datasets/reindent.py",
+    "identical": true,
+    "sha256": "a87c469541577bf8f96f0b04faa7e17a2d995c92b676613aefeecb3d0a572b07"
+  },
+  {
+    "original": "datasets/utils.py",
+    "preserved": "legacy/datasets/utils.py",
+    "identical": true,
+    "sha256": "d93b93699cdc44008d90ade4e5b40f11209497fde9b97803273d970a2e0f346d"
+  },
+  {
+    "original": "datasets/apps_dataset.py",
+    "preserved": "legacy/datasets/apps_dataset.py",
+    "identical": true,
+    "sha256": "37bf45038caeb5231cf664e323f68c87227633b6ea85e89db08dee7c199d62bf"
+  },
+  {
+    "original": "utils/reindent.py",
+    "preserved": "legacy/utils/reindent.py",
+    "identical": true,
+    "sha256": "9769a2485e284c64a011feb76621c503500be40fdb66cfb0164d95b9e871daef"
+  },
+  {
+    "original": "utils/testing_util.py",
+    "preserved": "legacy/utils/testing_util.py",
+    "identical": true,
+    "sha256": "7661eb48657239d456bcbe3f149c0b602b76dd0a256b991bac6d617697be6f83"
+  },
+  {
+    "original": "trainers/trainer_rl.py",
+    "preserved": "legacy/trainers/trainer_rl.py",
+    "identical": true,
+    "sha256": "503754b76e7856802ce82c73b5875539ad95152a93c995586a65951d23fa0642"
+  },
+  {
+    "original": "configs/train_configs.py",
+    "preserved": "legacy/configs/train_configs.py",
+    "identical": true,
+    "sha256": "eeb199e1bb2e7f3db709861bede92fa3da305f8aa704cce2d48c635651d0fce1"
+  },
+  {
+    "original": "configs/generate_configs.py",
+    "preserved": "legacy/configs/generate_configs.py",
+    "identical": true,
+    "sha256": "369b99fe100f2abc695263ec6d1ab5be9c70e24c717cf5ce77b1a6adb8c828bb"
+  },
+  {
+    "original": "configs/deepspeed_configs.json",
+    "preserved": "legacy/configs/deepspeed_configs.json",
+    "identical": true,
+    "sha256": "29c4c3cf2bb81b3237b99fd70f9b4ba8d10d8a349c0e3b1ad485dbe1b6155a66"
+  },
+  {
+    "original": "configs/unit_test_configs.py",
+    "preserved": "legacy/configs/unit_test_configs.py",
+    "identical": true,
+    "sha256": "2531bd0cb40016d70ba2fc4ac828813da39e434fd391f7f668f13008e78d61a9"
+  },
+  {
+    "original": "scripts/train_actor_rl_deepspeed.sh",
+    "preserved": "legacy/scripts/train_actor_rl_deepspeed.sh",
+    "identical": true,
+    "sha256": "641ddaeb71e4c9b5ef866d2524f121bc46555d20a73c3831133a5d77ee491cfe"
+  },
+  {
+    "original": "scripts/train_critic.sh",
+    "preserved": "legacy/scripts/train_critic.sh",
+    "identical": true,
+    "sha256": "5aeb63549b7d096c608e62403b61b7eb50148bbe8c358426eca90cf7da35943e"
+  },
+  {
+    "original": "scripts/train_actor_deepspeed.sh",
+    "preserved": "legacy/scripts/train_actor_deepspeed.sh",
+    "identical": true,
+    "sha256": "9f609bb409a9e6579a276dc70496d8f24fcc809b3d59839ccc72d0907c230def"
+  },
+  {
+    "original": "scripts/run_unit_tests.sh",
+    "preserved": "legacy/scripts/run_unit_tests.sh",
+    "identical": true,
+    "sha256": "fef85aa4792fa12440c83723d26b3cff45b78aae1790184a6c2a9a83cbb09435"
+  },
+  {
+    "original": "scripts/generate.sh",
+    "preserved": "legacy/scripts/generate.sh",
+    "identical": true,
+    "sha256": "8c9906015e1dc1c4d7fb280a43f3d24669989b14c3be346b42ebf127d42c4bcf"
+  },
+  {
+    "original": "scripts/train_actor_rl.sh",
+    "preserved": "legacy/scripts/train_actor_rl.sh",
+    "identical": true,
+    "sha256": "5898f0474671bc4874207f5b759a40aec0377748665e2f0d7fb3a7ba4eae8986"
+  },
+  {
+    "original": "scripts/train_critic_deepspeed.sh",
+    "preserved": "legacy/scripts/train_critic_deepspeed.sh",
+    "identical": true,
+    "sha256": "091c589609e111bf35eb274076d66fd251203e9360b1d2a6127438ebc1e0a23f"
+  },
+  {
+    "original": "scripts/generate_critic_scores_binary.sh",
+    "preserved": "legacy/scripts/generate_critic_scores_binary.sh",
+    "identical": true,
+    "sha256": "c2c8a0adfb92ceb3b19955d9224a79e71b696f0027e211c72ab097294a6adc0d"
+  },
+  {
+    "original": "scripts/train_actor.sh",
+    "preserved": "legacy/scripts/train_actor.sh",
+    "identical": true,
+    "sha256": "2fb6611f00331bc368b66ff58c494d19fe1fa719fbc875cdb88a9cec5503e25d"
+  },
+  {
+    "original": "scripts/generate_critic_scores.sh",
+    "preserved": "legacy/scripts/generate_critic_scores.sh",
+    "identical": true,
+    "sha256": "1c6b865a7ba45f1a39c4ee0a45314b6a6a7d2fccef6f92335906ffdbadd6b69f"
+  }
+]

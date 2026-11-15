@@ -1,0 +1,43 @@
+{
+  "APPS_test": {
+    "introductory": {
+      "url": "https://datasets-server.huggingface.co/rows?dataset=codeparrot%2Fapps&config=introductory&split=test&offset=0&length=2",
+      "raw_sha256": "6bd2ea1619afb006220d67a7f78840515504fb4679d0fc6cd82b4a26a62191e0",
+      "selection": "first two rows in the indicated test configuration"
+    },
+    "interview": {
+      "url": "https://datasets-server.huggingface.co/rows?dataset=codeparrot%2Fapps&config=all&split=test&offset=0&length=6",
+      "raw_sha256": "ceaebb801125df16b36b49332fdb7aa56fcac09aca7a027667fe96569e4b34fd",
+      "selection": "first two rows in the indicated test configuration"
+    },
+    "competition": {
+      "url": "https://datasets-server.huggingface.co/rows?dataset=codeparrot%2Fapps&config=competition&split=test&offset=0&length=2",
+      "raw_sha256": "22fb3ab8507bccbc85d37c3b972e5f358b252b11ee871f00d5c749a3993f246e",
+      "selection": "first two rows in the indicated test configuration"
+    }
+  },
+  "APPS_train": {
+    "source": "bundled Salesforce/CodeRL repository",
+    "commit": "ec3c526",
+    "ids": [
+      "apps/train/0001",
+      "apps/train/0111",
+      "apps/train/2287",
+      "apps/train/2404",
+      "apps/train/4184"
+    ]
+  },
+  "MBPP": {
+    "url": "https://raw.githubusercontent.com/google-research/google-research/4b61cfbcd56b19e80ed5d95a80bac58f5ea70217/mbpp/mbpp.jsonl",
+    "revision": "4b61cfbcd56b19e80ed5d95a80bac58f5ea70217",
+    "raw_sha256": "ccf64ceae9c5403bf50a044cb6d505bfd2a2963ee58338ba268fd65beab92a9f",
+    "selection": "test IDs 11–13; train IDs 601–604; no accuracy-based selection"
+  },
+  "normalized_sha256": {
+    "mbpp_subset.jsonl": "ce17ab35bd52c42b8cbf651cbf705c4c6e39e75f33b992e7f5d58d73b7c0311a",
+    "apps_test.jsonl": "c5071be424ab9668a59edeed0211caffe7f0f47a13c34ea73b9a24505350dc67",
+    "apps_train.jsonl": "8889058e1c0f58de3aa56a6d08e429a9d0c25235f26533c6aa089c6d556334c3",
+    "mbpp_all.jsonl": "ad783632e1ebd0e462a73c47f7f07fa4121c41e2cfe68db3c0d53701d74488e3"
+  },
+  "note": "APPS rows service is not revision-addressable; frozen normalized files and raw response digests are the evidence. Test references are never passed to inference."
+}

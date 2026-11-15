@@ -1,0 +1,178 @@
+[
+  {
+    "id": "apps/train/0001",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 1,
+      "total": 1,
+      "error": "",
+      "seconds": 0.085518,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/train/0111",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 1,
+      "total": 1,
+      "error": "",
+      "seconds": 0.090254,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/train/2287",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.091024,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/train/2404",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 1,
+      "total": 1,
+      "error": "",
+      "seconds": 0.048311,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/train/4184",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 8,
+      "total": 8,
+      "error": "",
+      "seconds": 0.085394,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/test/4000",
+    "reference_result": {
+      "outcome": "failed",
+      "passed": 0,
+      "total": 250,
+      "error": "WrongAnswer",
+      "seconds": 0.077822,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/test/4001",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 244,
+      "total": 244,
+      "error": "",
+      "seconds": 0.049612,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/test/0000",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 565,
+      "total": 565,
+      "error": "",
+      "seconds": 0.0611,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "apps/test/0001",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 278,
+      "total": 278,
+      "error": "",
+      "seconds": 0.083244,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/11",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.08848,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/12",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.045371,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/13",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.082779,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/601",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.048124,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/602",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.047701,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/603",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.049031,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  },
+  {
+    "id": "mbpp/604",
+    "reference_result": {
+      "outcome": "passed",
+      "passed": 3,
+      "total": 3,
+      "error": "",
+      "seconds": 0.081289,
+      "isolation": "macOS seatbelt + resource limits"
+    }
+  }
+]

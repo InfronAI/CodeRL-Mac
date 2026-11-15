@@ -1,0 +1,258 @@
+[
+  {
+    "command": [
+      "/Users/apple/Projects/CodeRL/.venv/bin/python",
+      "-m",
+      "coderl",
+      "doctor"
+    ],
+    "exit_code": 0,
+    "duration": 1.7723945826292038,
+    "lines": [
+      {
+        "seconds": 1.5538180000148714,
+        "text": "{"
+      },
+      {
+        "seconds": 1.553873207885772,
+        "text": "  \"python\": \"3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]\","
+      },
+      {
+        "seconds": 1.5538762919604778,
+        "text": "  \"platform\": \"macOS-26.6.1-arm64-arm-64bit\","
+      },
+      {
+        "seconds": 1.5538765829987824,
+        "text": "  \"machine\": \"arm64\","
+      },
+      {
+        "seconds": 1.553879207931459,
+        "text": "  \"cpu\": \"Apple M1 Pro\","
+      },
+      {
+        "seconds": 1.5538808749988675,
+        "text": "  \"memory_bytes\": \"17179869184\","
+      },
+      {
+        "seconds": 1.5538811245933175,
+        "text": "  \"device\": \"mps\","
+      },
+      {
+        "seconds": 1.5538957919925451,
+        "text": "  \"mps_available\": true,"
+      },
+      {
+        "seconds": 1.5538964997977018,
+        "text": "  \"cuda_available\": false,"
+      },
+      {
+        "seconds": 1.5538968746550381,
+        "text": "  \"versions\": {"
+      },
+      {
+        "seconds": 1.5538971666246653,
+        "text": "    \"torch\": \"2.9.1\","
+      },
+      {
+        "seconds": 1.5538973747752607,
+        "text": "    \"transformers\": \"4.46.3\","
+      },
+      {
+        "seconds": 1.5538975419476628,
+        "text": "    \"numpy\": \"2.4.6\","
+      },
+      {
+        "seconds": 1.5538977077230811,
+        "text": "    \"tokenizers\": \"0.20.3\","
+      },
+      {
+        "seconds": 1.5538979996927083,
+        "text": "    \"safetensors\": \"0.8.0\""
+      },
+      {
+        "seconds": 1.5538981668651104,
+        "text": "  },"
+      },
+      {
+        "seconds": 1.5538984169252217,
+        "text": "  \"determinism\": \"Seeded PRNGs; MPS floating-point kernels may differ between runs/hardware.\","
+      },
+      {
+        "seconds": 1.5539004169404507,
+        "text": "  \"backward_test\": true,"
+      },
+      {
+        "seconds": 1.5539006246253848,
+        "text": "  \"executor_test\": {"
+      },
+      {
+        "seconds": 1.553900874685496,
+        "text": "    \"outcome\": \"passed\","
+      },
+      {
+        "seconds": 1.5539010418578982,
+        "text": "    \"passed\": 1,"
+      },
+      {
+        "seconds": 1.5539012076333165,
+        "text": "    \"total\": 1,"
+      },
+      {
+        "seconds": 1.5539013748057187,
+        "text": "    \"error\": \"\","
+      },
+      {
+        "seconds": 1.5539015419781208,
+        "text": "    \"seconds\": 0.054518,"
+      },
+      {
+        "seconds": 1.5539030418731272,
+        "text": "    \"isolation\": \"macOS seatbelt + resource limits\""
+      },
+      {
+        "seconds": 1.5539045417681336,
+        "text": "  }"
+      },
+      {
+        "seconds": 1.5539047080092132,
+        "text": "}"
+      }
+    ]
+  },
+  {
+    "command": [
+      "/Users/apple/Projects/CodeRL/.venv/bin/python",
+      "scripts/demo.py",
+      "--run",
+      "experiments/tiny-mps-final"
+    ],
+    "exit_code": 0,
+    "duration": 15.426911041606218,
+    "lines": [
+      {
+        "seconds": 1.0296898325905204,
+        "text": "CodeRL | live local inference"
+      },
+      {
+        "seconds": 1.0296940417028964,
+        "text": "Device: mps | model: tiny | seed: 42"
+      },
+      {
+        "seconds": 1.029695457778871,
+        "text": "Scope: Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+      },
+      {
+        "seconds": 1.030141916591674,
+        "text": ""
+      },
+      {
+        "seconds": 1.0301430826075375,
+        "text": "PROBLEM: Read a pair of numbers and write the result of adding them."
+      },
+      {
+        "seconds": 1.0301439575850964,
+        "text": "Input"
+      },
+      {
+        "seconds": 1.0301442076452076,
+        "text": "1 2"
+      },
+      {
+        "seconds": 1.030144457705319,
+        "text": "Output"
+      },
+      {
+        "seconds": 1.030144749674946,
+        "text": "3"
+      },
+      {
+        "seconds": 1.176958582829684,
+        "text": ""
+      },
+      {
+        "seconds": 1.1769607495516539,
+        "text": "Generating a greedy program from the trained actor ..."
+      },
+      {
+        "seconds": 4.701244166586548,
+        "text": "print(sum(map(int,input().split())))"
+      },
+      {
+        "seconds": 4.701252041850239,
+        "text": ""
+      },
+      {
+        "seconds": 4.792090291623026,
+        "text": "Final tests: passed (3/3)"
+      },
+      {
+        "seconds": 4.792092207819223,
+        "text": ""
+      },
+      {
+        "seconds": 4.792092832736671,
+        "text": "Sampling five candidates and running the learned critic/repair pipeline ..."
+      },
+      {
+        "seconds": 14.805063457693905,
+        "text": "  initial: 4/5 pass public examples"
+      },
+      {
+        "seconds": 14.805076207965612,
+        "text": "  prefix: 0 tokens, 2 continuation(s)"
+      },
+      {
+        "seconds": 14.805093999952078,
+        "text": "  prefix: 0 tokens, 1 continuation(s)"
+      },
+      {
+        "seconds": 14.80509425001219,
+        "text": "  prefix: 0 tokens, 1 continuation(s)"
+      },
+      {
+        "seconds": 14.805094457697123,
+        "text": "  prefix: 0 tokens, 1 continuation(s)"
+      },
+      {
+        "seconds": 14.805094624869525,
+        "text": "  refine: 4/5 pass public examples"
+      },
+      {
+        "seconds": 14.874149832874537,
+        "text": "Candidate 1: compile_error | 'print(sum(map(int,input().split())))))\\n'"
+      },
+      {
+        "seconds": 14.938706749584526,
+        "text": "Candidate 2: passed | 'print(sum(map(int,input().split())))\\n'"
+      },
+      {
+        "seconds": 15.00270045781508,
+        "text": "Candidate 3: passed | 'print(sum(map(int,input().split())))\\n'"
+      },
+      {
+        "seconds": 15.065993624739349,
+        "text": "Candidate 4: passed | 'print(sum(map(int,input().split())))\\n'"
+      },
+      {
+        "seconds": 15.127301333006471,
+        "text": "Candidate 5: passed | 'print(sum(map(int,input().split())))\\n'"
+      },
+      {
+        "seconds": 15.127303374931216,
+        "text": ""
+      },
+      {
+        "seconds": 15.127306582871825,
+        "text": "All candidate programs, test errors and critic traces are saved."
+      },
+      {
+        "seconds": 15.127306791953743,
+        "text": "The tiny addition fixture demonstrates the workflow; it is not an APPS score."
+      },
+      {
+        "seconds": 15.128688207827508,
+        "text": "Session artifact: docs/assets/demo-session.json"
+      }
+    ]
+  }
+]

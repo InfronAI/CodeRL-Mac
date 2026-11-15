@@ -1,0 +1,16 @@
+{
+  "outcomes": {
+    "passed": 2,
+    "compile_error": 8
+  },
+  "problems": 2,
+  "candidates": 10,
+  "beam_pass@1": {
+    "mean": 1.0
+  },
+  "beam_pass@5": {
+    "mean": 1.0
+  },
+  "decoding": "beam",
+  "scope": "Mechanism demonstration only: randomly initialized T5, byte tokenizer, authored addition paraphrases with the same target algorithm; no benchmark/generalization claim"
+}

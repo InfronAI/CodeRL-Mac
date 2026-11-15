@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coderl-mac"
+version = "0.1.0"
+description = "CodeRL actor-critic program synthesis on Apple Silicon, CPU and CUDA"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE.txt"}
+dependencies = [
+  "torch>=2.6,<2.10", "transformers==4.46.3", "numpy>=1.26,<3",
+  "safetensors>=0.4", "matplotlib>=3.9,<4", "pillow>=11,<13"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.8", "imageio-ffmpeg>=0.6"]
+
+[project.scripts]
+coderl = "coderl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+src = ["src"]
+line-length = 110
+exclude = ["transformers", "legacy", "data", "outputs", "experiments"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

@@ -1,0 +1,46 @@
+run,model,device,experiment,problems,candidates,pass_at_1,pass_at_5,decoding
+tiny-mps-final,tiny,mps,absolute_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,ce_only_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,ce_synthetic_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,coderl,2,10,0.7,1.0,nucleus
+tiny-mps-final,tiny,mps,coderl_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,cs_refine,2,10,0.7999999999999999,1.0,nucleus + critic sampling (dependent samples)
+tiny-mps-final,tiny,mps,cs_repair1,2,10,0.7999999999999999,1.0,nucleus + critic sampling (dependent samples)
+tiny-mps-final,tiny,mps,cs_repair2,2,10,0.7999999999999999,1.0,nucleus + critic sampling (dependent samples)
+tiny-mps-final,tiny,mps,cs_repair4,2,10,0.7999999999999999,1.0,nucleus + critic sampling (dependent samples)
+tiny-mps-final,tiny,mps,distance_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,no_critic_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,rl_only_beam,2,10,1.0,1.0,beam
+tiny-mps-final,tiny,mps,sft,2,10,0.30000000000000004,1.0,nucleus
+tiny-mps-final,tiny,mps,sft_beam,2,10,0.0,1.0,beam
+tiny-cpu-final,tiny,cpu,absolute_beam,2,10,1.0,1.0,beam
+tiny-cpu-final,tiny,cpu,ce_only_beam,2,10,1.0,1.0,beam
+tiny-cpu-final,tiny,cpu,ce_synthetic_beam,2,10,0.5,1.0,beam
+tiny-cpu-final,tiny,cpu,coderl,2,10,0.0,0.0,nucleus
+tiny-cpu-final,tiny,cpu,coderl_beam,2,10,0.0,0.0,beam
+tiny-cpu-final,tiny,cpu,cs_refine,2,10,0.0,0.0,nucleus + critic sampling (dependent samples)
+tiny-cpu-final,tiny,cpu,cs_repair1,2,10,0.0,0.0,nucleus + critic sampling (dependent samples)
+tiny-cpu-final,tiny,cpu,cs_repair2,2,10,0.0,0.0,nucleus + critic sampling (dependent samples)
+tiny-cpu-final,tiny,cpu,cs_repair4,2,10,0.0,0.0,nucleus + critic sampling (dependent samples)
+tiny-cpu-final,tiny,cpu,distance_beam,2,10,0.0,0.0,beam
+tiny-cpu-final,tiny,cpu,no_critic_beam,2,10,0.0,0.0,beam
+tiny-cpu-final,tiny,cpu,rl_only_beam,2,10,0.0,0.0,beam
+tiny-cpu-final,tiny,cpu,sft,2,10,0.2,0.5,nucleus
+tiny-cpu-final,tiny,cpu,sft_beam,2,10,0.0,1.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,absolute_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,ce_only_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,ce_synthetic_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,coderl,6,30,0.0,0.0,nucleus
+m1-codet5-small,Salesforce/codet5-small,mps,coderl_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,cs_refine,6,30,0.0,0.0,nucleus + critic sampling (dependent samples)
+m1-codet5-small,Salesforce/codet5-small,mps,cs_repair1,6,30,0.0,0.0,nucleus + critic sampling (dependent samples)
+m1-codet5-small,Salesforce/codet5-small,mps,cs_repair2,6,30,0.0,0.0,nucleus + critic sampling (dependent samples)
+m1-codet5-small,Salesforce/codet5-small,mps,cs_repair4,6,30,0.0,0.0,nucleus + critic sampling (dependent samples)
+m1-codet5-small,Salesforce/codet5-small,mps,distance_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,mbpp_finetuned,3,15,0.0,0.0,nucleus
+m1-codet5-small,Salesforce/codet5-small,mps,mbpp_zero_coderl,3,15,0.0,0.0,nucleus
+m1-codet5-small,Salesforce/codet5-small,mps,mbpp_zero_sft,3,15,0.0,0.0,nucleus
+m1-codet5-small,Salesforce/codet5-small,mps,no_critic_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,rl_only_beam,6,30,0.0,0.0,beam
+m1-codet5-small,Salesforce/codet5-small,mps,sft,6,30,0.0,0.0,nucleus
+m1-codet5-small,Salesforce/codet5-small,mps,sft_beam,6,30,0.0,0.0,beam
