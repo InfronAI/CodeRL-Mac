@@ -10,11 +10,13 @@
 
 ## 演示视频
 
-[![观看本机实际运行](docs/assets/demo-preview.png)](docs/assets/demo.mp4)
+[![自动循环播放的本机运行演示](docs/assets/demo.gif)](docs/assets/demo.mp4)
+
+上方动图会自动循环播放，点击即可打开高清 MP4。自动播放遵循你的 [GitHub 动画设置](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings#managing-motion)。
 
 **[观看或下载 MP4](docs/assets/demo.mp4)** · [GIF 预览](docs/assets/demo.gif) · [原始终端输出](docs/assets/demo-capture.json) · [生成程序、测试结果和 critic 轨迹](docs/assets/demo-session.json)
 
-视频根据真实执行的设备检查和模型推理终端输出制作，压缩了等待时间。展示代码生成、代码执行、critic 引导的采样以及实际测试结果。加法小数据集用于演示机制，不代表 APPS 泛化性能。GitHub 页面可能需要点击 MP4 链接后播放或下载。
+视频根据真实执行的设备检查和模型推理终端输出制作，压缩了等待时间。展示代码生成、代码执行、critic 引导的采样以及实际测试结果。加法小数据集用于演示机制，不代表 APPS 泛化性能。
 
 ## 快速开始
 

@@ -12,11 +12,13 @@ An executable Apple Silicon modernization of **[CodeRL: Mastering Code Generatio
 
 ## Demo
 
-[![Watch the actual local run](docs/assets/demo-preview.png)](docs/assets/demo.mp4)
+[![Automatically looping demo of the actual local run](docs/assets/demo.gif)](docs/assets/demo.mp4)
+
+The animated preview plays automatically and loops, subject to your [GitHub motion settings](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings#managing-motion). Click it to open the full-resolution MP4.
 
 **[Watch / download the MP4](docs/assets/demo.mp4)** · [Animated preview](docs/assets/demo.gif) · [Exact captured output](docs/assets/demo-capture.json) · [Programs, test outcomes and critic traces](docs/assets/demo-session.json)
 
-The video replays real terminal output from device checks and live inference using saved checkpoints, with idle gaps compressed. It shows code generation, execution, critic-guided sampling and the resulting test outcomes. The small addition fixture demonstrates the workflow; it does not measure APPS generalization. GitHub may require opening the MP4 link to play/download it.
+The video replays real terminal output from device checks and live inference using saved checkpoints, with idle gaps compressed. It shows code generation, execution, critic-guided sampling and the resulting test outcomes. The small addition fixture demonstrates the workflow; it does not measure APPS generalization.
 
 ## Quick start
 
